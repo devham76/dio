@@ -59,7 +59,7 @@
 			<span><img src="https://cdn4.iconfinder.com/data/icons/miu/24/house-home-real_estate-property-glyph-128.png" alt="place" />
         초대장소 : <strong>DIO동아리방</strong> | 경기도 오산시 양산동 411 임마누엘관 </span>
 		</div>
-		<div class="map_wrap" id="map"></div>
+		<div class="map_wrap" id="map2"></div>
 		<div class="tras_wrap">
 			<div>
 				<div class="what"><img src="https://cdn2.iconfinder.com/data/icons/vehicles-7/24/vehicles-04-128.png" alt="metro" />지하철</div>
@@ -70,6 +70,7 @@
 				<div class="is">2, 52, 220, 1303, 115, 52, 15, 17, 33, 52, 55-1, 250, 300, 380, 390, 520, 730, 5200, 5400</div>
 			</div>
 		</div>
+		<div  class="map_wrap" id="map" ></div>
 		<div class="copy">
 			© Copyright 2019, dio 20주년 파티 기획단
 		</div>
@@ -78,56 +79,25 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?signed_in=true"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+
+
+	<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8hg0t7z9aq"></script>
 	<script>
-	var latlng = "37.194088, 127.022208"; //구글맵에서 위치 검색 후, 맵을 클릭하면 나오는 하단의 좌표를 입력한다.
-
-	function initMap() {
-		if (latlng.length <= 0)
-			return false;
-		arr = latlng.split(",");
-		if (arr.length <= 1)
-			return false;
-
-		var myLatLng = {
-			lat : parseFloat($.trim(arr[0])),
-			lng : parseFloat($.trim(arr[1]))
-		};
-		var map = new google.maps.Map(document.getElementById('map'), {
-			zoom : 17,
-			center : myLatLng
+		// 지도 옵션 설정
+		var mapOptions = {
+			center: new naver.maps.LatLng(37.3595704, 127.105399),
+			zoom: 10
+		}
+		// 지도 생성
+		var map = new naver.maps.Map('map', {
+			center: new naver.maps.LatLng(37.3595704, 127.105399),
+			zoom: 10
 		});
-		var arr = [];
 
-		new google.maps.Marker({
-			position : myLatLng,
-			map : map
-		});
-	}
-	$(function(e) {
-		initMap();
-
-		var targetEle = $("#autoplay");
-		targetEle.find("img").css("cssText" , "width:" + targetEle.width() + "px !important;");
-		targetEle.slick({
-			slidesToShow : 1,
-			slidesToScroll : 1,
-			autoplay : true,
-			autoplaySpeed : 2000,
-			dots: false,
-		  	infinite: true,
-		  	variableWidth: true
-		});
-		targetEle.css({"display" : "block"});
-		var tmpHeight = 0;
-		targetEle.find("img").each(function(k, v) {
-			var _this = $(this);
-			if( tmpHeight == 0 || tmpHeight > _this.height() ) {
-				tmpHeight = _this.height();
-			}
-		});
-		$(".slide_wrap").height(tmpHeight);
-	});
 
 	</script>
+
+	
+	
 </body>
 </html>
