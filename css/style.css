@@ -167,4 +167,9 @@ body {
 .slick-prev,.slick-next {
 	display:none !important;
 }
+
+/*hyemi 추가*/
+.star {
+	width:30px
+}
 </style>
