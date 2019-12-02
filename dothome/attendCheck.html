@@ -1,0 +1,128 @@
+<?php include("header.html") ?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    .container {
+        background-color: #dfded6;
+        padding-bottom: 10px;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .text-import {
+        color: red;
+    }
+
+    .custom-radio input[type="radio"]:checked+label:before {
+        background: black;
+        border-color: #adb8c0;
+    }
+
+    #submit {
+        background-color: gray;
+        border-color: gray;
+    }
+
+    .attend_1 {
+        color : #007bff;
+        font-weight: bold;
+    }
+    .attend_2 {
+        color : gray;
+    }
+    .attend_3 {
+        color: gray;
+    }
+</style>
+
+<body class="bg-light wrap">
+    <div class="container">
+        <div class="py-4 text-center">
+            <h2>참석 현황</h2>
+            <div class="btn-group btn-group-sm btn-group-toggle " data-toggle="buttons">
+                <label class="btn btn-secondary btn-go" onclick='window.location.assign("./attendSubmit.html")'>
+                    <input type="radio" name="options" id="option2"> 참석여부 제출
+                </label>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-striped table-sm">
+                <thead>
+                    <tr>
+                        <th width="5">No</th>
+                        <th width="20">학번</th>
+                        <th width="30">이름</th>
+                        <th width="15">참석여부</th>
+                        <th width="30">제출날짜</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>12학번</td>
+                        <td class="attend_1">김한솔</td>
+                        <td class="attend_1">참석</td>
+                        <td>19/12/02 14:00</td>
+                    </tr>
+                    <tr>
+                        <td colspan=4>보고싶어요 동문 여러분 !</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>13학번</td>
+                        <td class="attend_2">이혜미</td>
+                        <td class="attend_2">불참석</td>
+                        <td>19/12/02 14:00</td>
+                    </tr>
+                    <tr>
+                            <td>3</td>
+                            <td>13학번</td>
+                            <td class="attend_1">이혜미</td>
+                            <td class="attend_1">참석</td>
+                            <td>19/12/02 15:00</td>
+                        </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>13학번</td>
+                        <td class="attend_3">김수빈</td>
+                        <td class="attend_3">미정</td>
+                        <td>19/12/02 14:00</td>
+                    </tr>
+                    <tr>
+                        <td colspan=4>보고싶어요 동문 여러분 !!!!!!</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+
+
+    <div class="copy">
+        © Copyright 2019, DIO 20주년 파티 기획단
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="./index.html">포스터</a></li>
+            <li class="list-inline-item"><a href="./invitation.html">초대장</a></li>
+            <li class="list-inline-item"><a href="./attendSubmit.html">참석제출</a></li>
+        </ul>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
+        crossorigin="anonymous"></script>
+    <script src="form-validation.js"></script>
+</body>

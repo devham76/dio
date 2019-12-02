@@ -1,0 +1,171 @@
+<?php include("header.html") ?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+    <div class="wrap">
+        <div class="slide_wrap">
+            <div id="autoplay" style="display:none;">
+                <!-- //이미지 추가 -->
+                <img src="assets/images/all_yb.jpg" class="img100 slide_img" />
+                <img src="assets/images/2013party.jpg" class="img100 slide_img" />
+                <img src="assets/images/2015party.jpg" class="img100 slide_img" />
+            </div>
+        </div>
+        <div class="content_wrap">
+            <h1><img src="assets/images/iconfinder_dancer_1_811487.svg" alt="icon finder free icon" />
+                DIO 20살 축하파티에 초대합니다
+                <img src="assets/images/iconfinder_dancer_2_811484.svg" alt="icon finder free icon" /></h1>
+            1999년 시작된 우리의 DIO가 올해 스무살이 되었어요. <br>
+            20년간 건재할 수 있도록 마음을 다해 지켜온 <br>모든 선후배님들께 존경과 감사를 드립니다.<br><br>
+            그리고 DIO라는 이름으로 연결된 모든 선후배님 너무나 보고싶습니다!<br><br>
+
+            우리의 가장 반짝반짝 빛나는 시절을 함께했던,<br>
+            DIO의 20살 축하파티에 여러분을 초대합니다.
+
+        </div>
+        <div class="contact_wrap">
+            <a href="tel:010-3299-6793" class="btn-contact bg1">
+                <img src="https://cdn4.iconfinder.com/data/icons/miu/24/device-iPhone-smartphone-vertical-glyph-128.png"
+                    alt="tel">
+                기획단장 <font class="manager" style="font-size: 10px;">김한솔</font></a>
+            <a href="tel:010-9408-8626" class="btn-contact bg2">
+                <img src="https://cdn4.iconfinder.com/data/icons/miu/24/device-iPhone-smartphone-vertical-glyph-128.png"
+                    alt="tel">
+                행사진행팀 <font class="manager" style="font-size: 10px;">강연정</font></a>
+            <a href="mailto:dio20anniv@gmail.com" class="btn-contact bg3">
+                <img src="https://cdn4.iconfinder.com/data/icons/miu/24/common-email-envelope-mail-outline-stroke-128.png"
+                    alt="email" />
+                이메일</a>
+        </div>
+        <div class="date_wrap">
+            <span><img src="https://cdn2.iconfinder.com/data/icons/office-38/24/office-40-128.png" alt="time" />
+                초대일시 : <strong>2019년 12월 21일 오후1시-5시</strong></span>
+        </div>
+        <div class="addr_wrap">
+            <span><img src="https://cdn4.iconfinder.com/data/icons/miu/24/house-home-real_estate-property-glyph-128.png"
+                    alt="place" />
+                초대장소 : <strong>Think Hall</strong> | 서울 서대문구 연세로5다길 41 지하1층</span>
+        </div>
+        <div class="map_wrap" id="map"></div>
+        <div class="tras_wrap">
+            <div>
+                <div class="what"><img src="https://cdn2.iconfinder.com/data/icons/vehicles-7/24/vehicles-04-128.png"
+                        alt="metro" />지하철</div>
+                <div class="is">2호선 신촌역 1번 출구</div>
+            </div>
+        </div>
+        <div class="tras_wrap">
+            <div class="what"><img
+                    src="https://cdn4.iconfinder.com/data/icons/computer-and-business/512/simple_business_link-512.png"
+                    alt="sns" />SNS</div>
+                <div class="is">
+                    <a href="https://pf.kakao.com/_xgQxdkT">
+                        <img src="https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/kakao_talk_chat_media_social-512.png"
+                            alt="metro" />한신대dio
+                    </a>
+                    /
+                    <a href="https://www.instagram.com/dio20anniv/">
+                        <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png"
+                            alt="metro" />dio20anniv
+                    </a>
+                </div>
+
+        </div>
+        <div class="copy">
+            © Copyright 2019, DIO 20주년 파티 기획단
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="./index.html">포스터</a></li>
+                <li class="list-inline-item"><a href="./attendSubmit.html">참석제출</a></li>
+                <li class="list-inline-item"><a href="./attendCheck.html">참석현황</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    <script type="text/javascript"
+        src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=8hg0t7z9aq"></script>
+    <script>
+        // 지도 옵션 설정
+        var mapOptions = {
+            center: new naver.maps.LatLng(37.5568687, 126.933035),
+            zoom: 10
+        }
+        // 지도 생성
+        var map = new naver.maps.Map('map', {
+            center: new naver.maps.LatLng(37.5568687, 126.933035),
+            zoom: 10
+        });
+
+        // 정보창 옵션 활용하기
+        var HOME_PATH = window.HOME_PATH || '.';
+        var partyPlace = new naver.maps.LatLng(37.5568687, 126.933035),
+            map = new naver.maps.Map('map', {
+                center: partyPlace,
+                zoom: 10
+            }),
+            marker = new naver.maps.Marker({
+                map: map,
+                position: partyPlace
+            });
+
+        var contentString = [
+            '<div class="iw_inner">',
+            '   <h4>Think Hall</h4>',
+            '   <p><a href="https://v4.map.naver.com/?eText=%EB%9D%B5%ED%81%AC%ED%99%80&elng=0560741c1416f3450a39583b26896a30&eelat=&elat=c96054854a87bd542aade38ba89e472d&eelng=" target="_blank">길 찾기</a>',
+            '   </p>',
+            '</div>'
+        ].join('');
+
+        var infowindow = new naver.maps.InfoWindow({
+            content: contentString,
+            maxWidth: 140,
+            backgroundColor: "#eee",
+            borderColor: "#2db400",
+            borderWidth: 5,
+            anchorSize: new naver.maps.Size(30, 30),
+            anchorSkew: true,
+            anchorColor: "#eee",
+            pixelOffset: new naver.maps.Point(20, -20)
+        });
+
+        infowindow.open(map, marker);
+        naver.maps.Event.addListener(marker, "click", function (e) {
+            if (infowindow.getMap()) {
+                infowindow.close();
+            } else {
+                infowindow.open(map, marker);
+            }
+        });
+
+        //-- 슬라이더
+        $(function (e) {
+            var targetEle = $("#autoplay");
+            targetEle.find("img").css("cssText", "width:" + targetEle.width() + "px !important;");
+            targetEle.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: false,
+                infinite: true,
+                variableWidth: true
+            });
+            targetEle.css({ "display": "block" });
+            var tmpHeight = 0;
+            targetEle.find("img").each(function (k, v) {
+                var _this = $(this);
+                if (tmpHeight == 0 || tmpHeight > _this.height()) {
+                    tmpHeight = _this.height();
+                }
+            });
+            $(".slide_wrap").height(tmpHeight);
+        });
+
+
+    </script>
+
+</body>

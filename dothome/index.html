@@ -1,1 +1,64 @@
-hello world
+<?php include("header.html") ?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .copy,
+    .btn-go {
+        background-color: #dfded6;
+        border-color : black;
+        color : black;
+    }
+    #option2 {
+        font-weight: bold;
+        color: red;
+    }
+</style>
+
+<body>
+    <div class="wrap">
+            <div class="btn-group btn-group-toggle btn-block " data-toggle="buttons">
+                    <label class="btn btn-secondary btn-go " onclick='window.location.assign("./invitation.html")'>
+                      <input type="radio" name="options" id="option1" checked> 초대장 보기
+                    </label>
+                    <label class="btn btn-secondary btn-go" id="option2" onclick='window.location.assign("./attendSubmit.html")'>
+                      <input type="radio" name="options" > 참석여부 제출
+                    </label>
+                    <label class="btn btn-secondary btn-go" onclick='window.location.assign("./attendCheck.html")'>
+                      <input type="radio" name="options" id="option3"> 참석여부 확인
+                    </label>
+            </div>
+        <!--button type="button" class="btn btn-secondary btn-md btn-block btn-go">
+            <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-512.png" alt="star" class="star"
+                style="width:30px;" />
+            <span onclick='window.location.assign("./invitation.html")'>초대장</span>
+            <img src="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/star-512.png" alt="star" class="star"
+                style="width:30px;" />
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block btn-go">
+            <span onclick='window.location.assign("./attendSubmit.html")'>참석여부 제출</span>
+        </button>
+        <button type="button" class="btn btn-secondary btn-lg btn-block btn-go">
+            <span onclick='window.location.assign("./attendCheck.html")'>참석여부 확인</span>
+        </button-->
+
+        <img src="assets/images/20annivPoster.png" class="img100" />
+
+        <div class="copy">
+            © Copyright 2019, DIO 20주년 파티 기획단
+        </div>
+    </div>
+    </a>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
