@@ -60,7 +60,7 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="attend"><span class="text-import">*</span>참석여부</label>
+                    <label for="attend"><span class="text-import">*</span>행사 참석여부</label>
                     <div class="custom-control custom-radio">
                         <input id="attend_1" name="attend" type="radio" class="custom-control-input" checked
                             required>
@@ -75,7 +75,22 @@
                         <label class="custom-control-label" for="attend_3">미정</label>
                     </div>
                 </div>
-
+                <div class="mb-3">
+                    <label for="after_attend"><span class="text-import">*</span>뒷풀이 참석여부</label>
+                    <div class="custom-control custom-radio">
+                        <input id="after_attend_1" name="after_attend" type="radio" class="custom-control-input" checked
+                            required>
+                        <label class="custom-control-label" for="after_attend_1">참석</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="after_attend_2" name="after_attend" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="after_attend_2">불참석</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="after_attend_3" name="after_attend" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="after_attend_3">미정</label>
+                    </div>
+                </div>
                 <div class="mb-3">
                         <label for="extraPeople">함께 오시는 인원</label>
                         <input type="number" class="form-control" id="extraPeople" placeholder="0">
