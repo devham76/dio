@@ -187,3 +187,17 @@ body {
 	border-color : black;
 	color : black;
 }
+
+/* 참여, 불참여, 미정 */
+.attend_1 {
+	color: #007bff;
+	font-weight: bold;
+}
+
+.attend_2 {
+	color: gray;
+}
+
+.attend_3 {
+	color: gray;
+}
