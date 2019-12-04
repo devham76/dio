@@ -173,6 +173,13 @@ body {
 }
 
 /*hyemi 추가*/
+
+/* wrap 안에 컨테이너 */
+.container {
+	background-color: #dfded6;
+	padding-bottom: 10px;
+}
+
 .star {
 	width:30px;
 }
@@ -200,4 +207,24 @@ body {
 
 .attend_3 {
 	color: gray;
+}
+
+/* 모든 라디오 버튼색 */
+.custom-radio input[type="radio"]:checked+label:before {
+	background: black;
+	border-color: #adb8c0;
+}
+/* 제출 버튼 */
+#submit {
+	background-color: gray;
+	border-color: gray;
+}
+
+.text-import {
+	color: red;
+}
+
+/* footer */
+.lead {
+	font-size: 1rem;
 }

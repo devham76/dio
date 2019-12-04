@@ -3,51 +3,12 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
-<style>
-    * {
-        font-family: 'Nanum Gothic', sans-serif;
-    }
 
-    .container {
-        background-color: #dfded6;
-        padding-bottom: 10px;
-    }
-
-    .lead {
-        font-size: 1rem;
-    }
-
-    .text-import {
-        color: red;
-    }
-
-    .custom-radio input[type="radio"]:checked+label:before {
-        background: black;
-        border-color: #adb8c0;
-    }
-
-    #submit {
-        background-color: gray;
-        border-color: gray;
-    }
-
-    .attend_1 {
-        color : #007bff;
-        font-weight: bold;
-    }
-    .attend_2 {
-        color : gray;
-    }
-    .attend_3 {
-        color: gray;
-    }
-</style>
 
 <body class="bg-light wrap">
     <div class="container">
         <div class="py-4 text-center">
             <h2>참석 현황</h2>
-            <?php echo "php"; ?>
             <div class="btn-group btn-group-sm btn-group-toggle " data-toggle="buttons">
                 <label class="btn btn-secondary btn-go" onclick='window.location.assign("./attendSubmit.html")'>
                     <input type="radio" name="options" id="option2"> 참석여부 제출

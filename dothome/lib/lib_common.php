@@ -36,7 +36,7 @@
     {
 		$ip = $_SERVER[REMOTE_ADDR];
 
-		$logfile =  "/home/ezadmin/public_html/navertalk/log/" . date('Ymd').".log";
+		$logfile =  "./log/" . date('Ymd').".log";
 		$fp = @fopen($logfile, "a+");
 		$ip = $_SERVER[REMOTE_ADDR];
 		$output = date("Y/m/d H:i:s")." ($ip) " . $str."\n";
