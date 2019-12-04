@@ -17,9 +17,11 @@
 			echo "\n관리자에게 연락주세요 (010-9481-2668)";
 		  exit;
 		}
-
+		else
+			debug(_MYSQL_DB_." / db connect success!");
+		debug("->>dbconn :: ". $db_connect);
 		$charset="utf8";
-		mysqli_set_charset($db_connect,"utf8");
+		//mysqli_set_charset($db_connect,"utf8");
 		//mysqli_query("set session character_set_connection=utf8;", $db_connect);
 		//mysqli_query("set session character_set_results=utf8;",    $db_connect);
 		//mysqli_query("set session character_set_client=utf8;",     $db_connect);
@@ -54,7 +56,7 @@
 
 		$ip = $_SERVER[REMOTE_ADDR];
 
-		$logfile =  "/home/ezadmin/public_html/navertalk/log/" . date('Ymd').".log";
+		$logfile =  "./log/" . date('Ymd').".log";
 		$fp = @fopen($logfile, "a+");
 		$ip = $_SERVER[REMOTE_ADDR];
 		$output = date("Y/m/d H:i:s")." ($ip) " . $str."\n";
