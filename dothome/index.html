@@ -1,4 +1,5 @@
 <?php include("header.html") ?>
+<!--meta charset="UTF-8"-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <link rel="stylesheet" href="css/style.css">
 <style>
@@ -18,7 +19,7 @@
     <div class="wrap">
             <div class="btn-group btn-group-toggle btn-block " data-toggle="buttons">
                     <label class="btn btn-secondary btn-go " onclick='window.location.assign("./invitation.html")'>
-                      <input type="radio" name="options" id="option1" checked> 초대장 보기
+                      <input type="radio" name="options" id="option1" checked> 초대장 보기 <? echo "hi"; ?>
                     </label>
                     <label class="btn btn-secondary btn-go" id="option2" onclick='window.location.assign("./attendSubmit.html")'>
                       <input type="radio" name="options" > 참석여부 제출
