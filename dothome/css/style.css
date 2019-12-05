@@ -222,6 +222,7 @@ body {
 
 .text-import {
 	color: red;
+	font-weight: bold !important;
 }
 
 /* footer */

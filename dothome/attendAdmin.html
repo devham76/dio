@@ -9,6 +9,7 @@
         padding-bottom: 10px;
     }
 </style>
+
 <body class="bg-light">
     <div class="container">
         <div class="py-4 text-center">
@@ -18,37 +19,33 @@
             <div class="col">
                 <div class="row">
                     <div class="col-auto">
-                            <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_search" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      학번
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="search">
-                                      <button class="dropdown-item" type="button" value="name">이름</button>
-                                      <button class="dropdown-item" type="button" value="main_event">행사참석</button>
-                                      <button class="dropdown-item" type="button" value="after_event">뒷풀이참석</button>
-                                    </div>
-                                  </div>
+                        <div class="dropdown" id="dropdown-div">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="search_grade"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                학번
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button" id="search_grade">학번</button></li>
+                                <li><button class="dropdown-item" type="button" id="search_name">이름</button></li>
+                                <li><button class="dropdown-item" type="button" id="search_main">행사참석</button></li>
+                                <li><button class="dropdown-item" type="button" id="search_after">뒷풀이참석</button></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-6" style="padding-left: 0;">
-                        <input type="text" class="form-control " placeholder="검색...">
+                        <input type="text" class="form-control " id="search_string" placeholder="검색...">
                     </div>
                 </div>
 
                 <!-- 전체 테이블 -->
-                <div class="table-responsive" id="attendAdminDetail">
-                </div>
+                <div class="table-responsive" id="attendAdminDetail"></div>
             </div>
-            
+
             <div class="col">
-                <div class="table-responsive" id="attendAdminAll">
-                </div>
+                <div class="table-responsive" id="attendAdminAll"></div>
             </div>
-
+        </div>
     </div>
-
-    </div>
-
-
 
     <div class="copy">
         © Copyright 2019, DIO 20주년 파티 기획단
@@ -58,64 +55,95 @@
             <li class="list-inline-item"><a href="./attendSubmit.html">참석제출</a></li>
         </ul>
     </div>
-    </div>
 
 
 
-<?php include("./footer.html") ?>
+
+    <?php include("./footer.html") ?>
 
 
-<script>
-$(function(){ 
-    //$(document).ready(function(){
-        console.log("test");
-        $('#dropdown_search .dropdown-menu li > a').bind('click',function (e) {
-            var html = $(this).html();
-            console.log(html);
-            $('#dropdown_search button.dropdown-toggle').html(html +' <span class="caret"></span>'); 
-        });    
-});
+    <script>
+        $(function () {
+            //$(document).ready(function(){
+            console.log("test");
+            $('#dropdown-div .dropdown-menu .dropdown-item').click(function () {
+                var html = $(this).html();
+                var search_id = $(this).attr('id');
+                console.log(search_id);
+                $('#dropdown-div button.dropdown-toggle').html(html + ' <span class="caret"></span>');
 
 
-attendAdminDetail();
-attendAdminAll();
+                // 드롭다운 변경시마다 정렬
+                if (search_id == 'search_main' || search_id == 'search_after') {
+                    $("#search_string").hide();
+                    search_retable(search_id);
+                }
+                else
+                    $("#search_string").show();
+            });
+        });
 
-function attendAdminDetail() {
-    console.log("attendAdminDetail..");
-    // member, attend 정보 불러오기
-    $.ajax({
-        type : 'post',
-        url : 'attendCheck.php',
-        data : {"action" : "attendAdminDetail"},
-        dataType : 'text',
-        error : function(request, status, error){
-            console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
-        },
-        success : function(data){
-            console.log(data);
-            console.log("success");
-            $("#attendAdminDetail").html(data);
+        // 드롭다운 변경시에 테이블 재정렬
+        function search_retable(search_id) {
+            $.ajax({
+                type: 'post',
+                url: 'attendCheck.php',
+                data: { 
+                     "action": "attendAdminDetail"
+                    ,"search_id" : search_id
+                 },
+                dataType: 'text',
+                error: function (request, status, error) {
+                    console.log("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+                },
+                success: function (data) {
+                    //console.log(data);
+                    console.log("success");
+                    $("#attendAdminDetail").html(data);
+                }
+            });
+            console.log("ajax end");
         }
-    });
-    console.log("ajax end");
-}
-function attendAdminAll() {
-    console.log("attendAdminAll..");
-    // member, attend 정보 불러오기
-    $.ajax({
-        type : 'post',
-        url : 'attendCheck.php',
-        data : {"action" : "attendAdminAll"},
-        dataType : 'text',
-        error : function(request, status, error){
-            console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
-        },
-        success : function(data){
-            console.log(data);
-            console.log("success");
-            $("#attendAdminAll").html(data);
+
+        attendAdminDetail();
+        attendAdminAll();
+
+        function attendAdminDetail() {
+            console.log("attendAdminDetail..");
+            // member, attend 정보 불러오기
+            $.ajax({
+                type: 'post',
+                url: 'attendCheck.php',
+                data: { "action": "attendAdminDetail" },
+                dataType: 'text',
+                error: function (request, status, error) {
+                    console.log("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+                },
+                success: function (data) {
+                    //console.log(data);
+                    console.log("success");
+                    $("#attendAdminDetail").html(data);
+                }
+            });
+            console.log("ajax end");
         }
-    });
-    console.log("ajax end");
-}
-</script>
+        function attendAdminAll() {
+            console.log("attendAdminAll..");
+            // member, attend 정보 불러오기
+            $.ajax({
+                type: 'post',
+                url: 'attendCheck.php',
+                data: { "action": "attendAdminAll" },
+                dataType: 'text',
+                error: function (request, status, error) {
+                    console.log("code:" + request.status + "\n" + "message:" + request.responseText + "\n" + "error:" + error);
+                },
+                success: function (data) {
+                    //console.log(data);
+                    console.log("success");
+                    $("#attendAdminAll").html(data);
+                }
+            });
+            console.log("ajax end");
+        }
+    </script>

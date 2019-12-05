@@ -1190,3 +1190,102 @@
 2019/12/04 23:14:34 (127.0.0.1) dio / db connect success!!
 2019/12/04 23:14:34 (127.0.0.1) dio / db connect success!!
 2019/12/04 23:14:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:26:40 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:26:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:28:17 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:28:18 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:28:39 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:28:39 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:29:17 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:29:17 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:29:17 (127.0.0.1) select count(*) cnt from `member` where grade = '2000' and name='댄싱머신'
+2019/12/04 23:29:17 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('댄싱머신', '2000')
+2019/12/04 23:29:17 (127.0.0.1) delete from `attend` where member_seq = '12'
+2019/12/04 23:29:17 (127.0.0.1) insert into `attend` set
+                          member_seq = '12'
+                        , main_event = '1'
+                        , after_event = '3'
+                        , extra_member = '2'
+                        , message = '안녕안녕 ^^
+너무 반가워요 ~'
+                        , date = '2019-12-04 23:29:17'
+2019/12/04 23:29:17 (127.0.0.1) 1
+2019/12/04 23:29:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:29:26 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:29:26 (127.0.0.1) select count(*) cnt from `member` where grade = '2000' and name='댄싱머신'
+2019/12/04 23:29:26 (127.0.0.1) delete from `attend` where member_seq = '12'
+2019/12/04 23:29:26 (127.0.0.1) insert into `attend` set
+                          member_seq = '12'
+                        , main_event = '1'
+                        , after_event = '3'
+                        , extra_member = '2'
+                        , message = '안녕안녕 ^^
+너무 반가워요 ~'
+                        , date = '2019-12-04 23:29:26'
+2019/12/04 23:29:26 (127.0.0.1) 1
+2019/12/04 23:30:15 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:30:15 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:30:15 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:31:36 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:31:36 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:32:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:32:24 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:32:25 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:32:25 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:40 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:40 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:59 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:33:59 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:41:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:41:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:41:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:41:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:41:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:42:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:42:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:44:18 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:44:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:44:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:47:46 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:17 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:18 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:48 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:48 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:56 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:56 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:48:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:07 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:09 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:21 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:49:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:51:42 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:51:42 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:51:42 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:52:31 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:52:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:52:32 (127.0.0.1) dio / db connect success!!

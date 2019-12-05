@@ -39,11 +39,11 @@
     //----------------------------
     function debug($str)
     {
-		$ip = $_SERVER[REMOTE_ADDR];
+		$ip = $_SERVER['REMOTE_ADDR'];
 
 		$logfile =  "./log/" . date('Ymd').".log";
 		$fp = @fopen($logfile, "a+");
-		$ip = $_SERVER[REMOTE_ADDR];
+		$ip = $_SERVER['REMOTE_ADDR'];
 		$output = date("Y/m/d H:i:s")." ($ip) " . $str."\n";
 		@fwrite($fp, $output);
 		@fflush($fp);
@@ -57,11 +57,11 @@
 			$str .= addslashes($line) . "\n";
 		}
 
-		$ip = $_SERVER[REMOTE_ADDR];
+		$ip = $_SERVER['REMOTE_ADDR'];
 
 		$logfile =  "./log/" . date('Ymd').".log";
 		$fp = @fopen($logfile, "a+");
-		$ip = $_SERVER[REMOTE_ADDR];
+		$ip = $_SERVER['REMOTE_ADDR'];
 		$output = date("Y/m/d H:i:s")." ($ip) " . $str."\n";
 		@fwrite($fp, $output);
 		@fflush($fp);

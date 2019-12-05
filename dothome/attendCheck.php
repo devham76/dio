@@ -3,13 +3,14 @@
     
     global $db_connect;
 
-
-    if ( $_REQUEST['action'] == "attendCheck" ) attendCheck();
+    foreach($_REQUEST as $key => $val) $$key = $val;
+    if ( $_REQUEST['action'] == "attendCheck" ) attendCheck($search_id, $search_string);
     else if ( $_REQUEST['action'] == "attendAdminDetail" ) attendAdminDetail();
     else if ( $_REQUEST['action'] == "attendAdminAll" ) attendAdminAll();
 
 
-    function attendCheck() {
+    function attendCheck($search_id, $search_string) {
+        global $db_connect;
         // -- table
         $table = "
             <table class='table table-striped table-sm'>
@@ -19,17 +20,26 @@
                         <th width='20%'>학번</th>
                         <th width='20%'>이름</th>
                         <th width='16%'>행사</th>
-                        <th width='16%'>뒷풀이</th>
+                        <th width='16%'>뒤풀이</th>
                         <th width='25%'>제출날짜</th>
                     </tr>
                 </thead>
                 <tbody>
             ";
-        global $db_connect;
+
+
+        if ($search_id == 'search_main') $add_sql = " and main_event = 1 ";
+        else if ($search_id == 'search_after') $add_sql = " and after_event = 1 ";
+        else if ($search_id == 'search_grade') {
+            $search_string
+            $add_sql = " and grade =  ";
+        }
+
         $sql = "select m.*, a.*
                 from `member` m, `attend` a
-                where m.seq = a.member_seq
+                where m.seq = a.member_seq ${add_sql}
                 order by m.seq asc";
+                debug($sql);
         $result = mysqli_query($db_connect, $sql);
     
         $no = 0;
@@ -81,7 +91,7 @@
                         <th >학번</th>
                         <th >이름</th>
                         <th >행사</th>
-                        <th >뒷풀이</th>
+                        <th >뒤풀이</th>
                         <th >+인원</th>
                         <th width='20%'>제출날짜</th>
                     </tr>
@@ -92,7 +102,7 @@
         $sql = "select m.*, a.*
                 from `member` m, `attend` a
                 where m.seq = a.member_seq
-                order by m.grade asc";
+                order by grade asc";
         $result = mysqli_query($db_connect, $sql);
     
         $no = 0;
@@ -143,18 +153,21 @@
                         <th>학번</th>
                         <th>전체</th>
                         <th>행사</th>
-                        <th>뒷풀이</th>
+                        <th>뒤풀이</th>
                         <th>+인원</th>
                     </tr>
                 </thead>
                 <tbody>
             ";
         global $db_connect;
-        $sql = "select grade, count(*) cnt, sum(main_event) main, sum(after_event) after, sum(extra_member) extra
+        $sql = "select grade, count(*) cnt, 
+                    sum( IF(main_event = 1, 1, 0)) main, 
+                    sum( IF(after_event = 1, 1, 0)) after, 
+                    sum(extra_member) extra
                         from `member` m, `attend` a
                     where m.seq = a.member_seq
                         group by grade
-                        order by m.grade asc";
+                        order by grade asc";
         $result = mysqli_query($db_connect, $sql);
     
         $no = 0;
@@ -178,9 +191,8 @@
                 ."</tr>";
   
         }
-        $table .= "<tr>"
-            ."<td>" . ++$no . "</td>"
-            ."<td> 전 체 </td>"
+        $table .= "<tr class='text-import'>"
+            ."<td colspan=2 style='text-align:center'> 전 체 </td>"
             ."<td class=''>" . $cnt ."</td>"
             ."<td class=''>" . $main ."</td>"
             ."<td class=''>" . $after . "</td>"

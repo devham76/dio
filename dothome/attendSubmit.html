@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="after_attend"><span class="text-import">*</span>뒷풀이 참석여부</label>
+                    <label for="after_attend"><span class="text-import">*</span>뒤풀이 참석여부</label>
                     <div class="custom-control custom-radio">
                         <input value="1" id="after_attend_1" name="after_attend" type="radio" class="custom-control-input" checked
                             required>
@@ -63,7 +63,21 @@
                     </div>
                 </div>
                 <div class="mb-3">
+                        <label for="parking"><span class="text-import">*</span>주차여부</label>
+                        <div class="custom-control custom-radio">
+                            <input value="1" id="parking1" name="parking" type="radio" class="custom-control-input" checked
+                                required>
+                            <label class="custom-control-label" for="parking1">불필요</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input value="2" id="parking2" name="parking" type="radio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="parking2">필요</label>
+                        </div>
+                    </div>
+                <div class="mb-3">
                         <label for="extraPeople">함께 오시는 인원</label>
+                        <small class="text-muted">디아이오 외 함께 오시는 분 ( ex.가족, 친구 등)</small>
+                        
                         <input type="number" class="form-control" id="extraPeoples" name="extraPeople" placeholder="0">
                 </div>
                 <div class="mb-3">
@@ -121,7 +135,10 @@
             },
             success : function(data){
                 console.log(data);
-                console.log("success");
+                if (data == 'success'){
+                    alert("제출해주셔서 감사합니다 !");
+                    window.location.href="./attendCheck.html";
+                }
             }
         });
         console.log("ajax end");

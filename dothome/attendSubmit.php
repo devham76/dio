@@ -13,7 +13,6 @@
     $cnt = mysqli_fetch_assoc($result);
     // 1.1 member에 데이터가 없으면 추가
     if ($cnt['cnt'] == '0'){
-        echo "cnt == 0 ";
         $ins_sql = "INSERT INTO `member` (name, grade) VALUES ('$name', '$grade')";
         debug($ins_sql);
         $r = mysqli_query( $db_connect, $ins_sql );
@@ -49,7 +48,7 @@
                         , date = '" . date('Y-m-d H:i:s') . "'";
     debug($ins_sql);
     $result = mysqli_query( $db_connect, $ins_sql );
-    debug("attend insert : " + $result);
+    //debug("attend insert : " + $result);
     
-    echo "submit php!!";
+    echo "success";
 ?>
