@@ -1,10 +1,9 @@
 <?
     include_once "config_sys.php";    
-
+	$db_connect = db_connect();
 	// 데이터 베이스 연결
 	function db_connect()
 	{
-
 		$MYSQL_HOST   = _MYSQL_HOST_;
 		$MYSQL_ID     = _MYSQL_ID_;
 		$MYSQL_PASSWD = _MYSQL_PASSWD_;
@@ -18,17 +17,21 @@
 		  exit;
 		}
 		else
-			debug(_MYSQL_DB_." / db connect success!");
-		debug("->>dbconn :: ". $db_connect);
+			debug(_MYSQL_DB_." / db connect success!!");
+		//var_dump($db_connect);
+
+		
+		//echo "->>dbconn :: ". $db_connect;
 		$charset="utf8";
 		//mysqli_set_charset($db_connect,"utf8");
 		//mysqli_query("set session character_set_connection=utf8;", $db_connect);
 		//mysqli_query("set session character_set_results=utf8;",    $db_connect);
 		//mysqli_query("set session character_set_client=utf8;",     $db_connect);
 		
+
+			
 		return $db_connect;
 	}
-
 
 	
 

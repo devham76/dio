@@ -166,3 +166,1027 @@
 2019/12/04 04:06:10 (127.0.0.1) dio / db connect success!
 2019/12/04 04:06:11 (127.0.0.1) dio / db connect success!
 2019/12/04 04:06:12 (127.0.0.1) dio / db connect success!
+2019/12/04 04:06:43 (127.0.0.1) dio / db connect success!
+2019/12/04 04:06:43 (127.0.0.1) dio / db connect success!
+2019/12/04 04:09:14 (127.0.0.1) dio / db connect success!
+2019/12/04 21:03:24 (127.0.0.1) db conn : 
+2019/12/04 21:03:24 (127.0.0.1) select count(*) cnt from member where grade = '95' and name='이혜미'
+2019/12/04 21:03:24 (127.0.0.1) 0
+2019/12/04 21:03:24 (127.0.0.1) insert into attend 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:03'
+2019/12/04 21:03:24 (127.0.0.1) 0
+2019/12/04 21:05:02 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:05:02 (127.0.0.1) select count(*) cnt from member where grade = '95' and name='이혜미'
+2019/12/04 21:05:14 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:05:14 (127.0.0.1) select count(*) cnt from member where grade = '' and name=''
+2019/12/04 21:05:25 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:05:25 (127.0.0.1) select count(*) cnt from member where grade = '95' and name='이혜미'
+2019/12/04 21:05:28 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:05:28 (127.0.0.1) select count(*) cnt from member where grade = '' and name=''
+2019/12/04 21:05:57 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:05:57 (127.0.0.1) select count(*) cnt from member where grade = '' and name=''
+2019/12/04 21:05:58 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:05:58 (127.0.0.1) select count(*) cnt from member where grade = '' and name=''
+2019/12/04 21:06:04 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:06:04 (127.0.0.1) select count(*) cnt from member where grade = '' and name=''
+2019/12/04 21:06:04 (127.0.0.1) 0
+2019/12/04 21:06:04 (127.0.0.1) insert into attend 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:06'
+2019/12/04 21:06:04 (127.0.0.1) 0
+2019/12/04 21:06:30 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:06:30 (127.0.0.1) select count(*) cnt from member where grade = '95' and name='이혜미'
+2019/12/04 21:06:30 (127.0.0.1) 0
+2019/12/04 21:06:30 (127.0.0.1) insert into attend 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:06'
+2019/12/04 21:06:30 (127.0.0.1) 0
+2019/12/04 21:07:00 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:00 (127.0.0.1) select count(*) cnt from member where grade = '95' and name='이혜미'
+2019/12/04 21:07:00 (127.0.0.1) 0
+2019/12/04 21:07:00 (127.0.0.1) insert into attend 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:00 (127.0.0.1) 0
+2019/12/04 21:07:09 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:09 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:09 (127.0.0.1) 0
+2019/12/04 21:07:09 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:09 (127.0.0.1) 0
+2019/12/04 21:07:15 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:15 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:07:15 (127.0.0.1) 0
+2019/12/04 21:07:15 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:15 (127.0.0.1) 0
+2019/12/04 21:07:49 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:49 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:49 (127.0.0.1) 0
+2019/12/04 21:07:49 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:49 (127.0.0.1) 0
+2019/12/04 21:07:50 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:50 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:50 (127.0.0.1) 0
+2019/12/04 21:07:50 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:50 (127.0.0.1) 0
+2019/12/04 21:07:54 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:54 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:54 (127.0.0.1) 0
+2019/12/04 21:07:54 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:54 (127.0.0.1) 0
+2019/12/04 21:07:55 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:55 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:55 (127.0.0.1) 0
+2019/12/04 21:07:55 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:55 (127.0.0.1) 0
+2019/12/04 21:07:56 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:56 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:56 (127.0.0.1) 0
+2019/12/04 21:07:56 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:56 (127.0.0.1) 0
+2019/12/04 21:07:56 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:56 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:56 (127.0.0.1) 0
+2019/12/04 21:07:56 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:56 (127.0.0.1) 0
+2019/12/04 21:07:57 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:57 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:57 (127.0.0.1) 0
+2019/12/04 21:07:57 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:57 (127.0.0.1) 0
+2019/12/04 21:07:59 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:59 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:59 (127.0.0.1) 0
+2019/12/04 21:07:59 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:59 (127.0.0.1) 0
+2019/12/04 21:07:59 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:07:59 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:07:59 (127.0.0.1) 0
+2019/12/04 21:07:59 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:07'
+2019/12/04 21:07:59 (127.0.0.1) 0
+2019/12/04 21:08:00 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:08:00 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:08:00 (127.0.0.1) 0
+2019/12/04 21:08:00 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:08'
+2019/12/04 21:08:00 (127.0.0.1) 0
+2019/12/04 21:08:00 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:08:00 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:08:00 (127.0.0.1) 0
+2019/12/04 21:08:00 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:08'
+2019/12/04 21:08:00 (127.0.0.1) 0
+2019/12/04 21:08:01 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:08:01 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:08:01 (127.0.0.1) 0
+2019/12/04 21:08:01 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:08'
+2019/12/04 21:08:01 (127.0.0.1) 0
+2019/12/04 21:08:01 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:08:01 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:08:01 (127.0.0.1) 0
+2019/12/04 21:08:01 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:08'
+2019/12/04 21:08:01 (127.0.0.1) 0
+2019/12/04 21:08:02 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:08:02 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:08:02 (127.0.0.1) 0
+2019/12/04 21:08:02 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:08'
+2019/12/04 21:08:02 (127.0.0.1) 0
+2019/12/04 21:09:23 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:09:23 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:09:23 (127.0.0.1) 0
+2019/12/04 21:09:23 (127.0.0.1) 0
+2019/12/04 21:09:23 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:09'
+2019/12/04 21:09:23 (127.0.0.1) 0
+2019/12/04 21:09:25 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:09:25 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:09:25 (127.0.0.1) 0
+2019/12/04 21:09:25 (127.0.0.1) 0
+2019/12/04 21:09:25 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:09'
+2019/12/04 21:09:25 (127.0.0.1) 0
+2019/12/04 21:10:38 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:10:38 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:10:38 (127.0.0.1) 0
+2019/12/04 21:10:38 (127.0.0.1) 0
+2019/12/04 21:10:38 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:10'
+2019/12/04 21:10:38 (127.0.0.1) 0
+2019/12/04 21:10:40 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:10:40 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:10:40 (127.0.0.1) 0
+2019/12/04 21:10:40 (127.0.0.1) 0
+2019/12/04 21:10:40 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:10'
+2019/12/04 21:10:40 (127.0.0.1) 0
+2019/12/04 21:11:12 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:11:12 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:11:12 (127.0.0.1) 0
+2019/12/04 21:11:12 (127.0.0.1) 0
+2019/12/04 21:11:12 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:11'
+2019/12/04 21:11:12 (127.0.0.1) 0
+2019/12/04 21:11:16 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:11:16 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:11:16 (127.0.0.1) 0
+2019/12/04 21:11:16 (127.0.0.1) 0
+2019/12/04 21:11:16 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:11'
+2019/12/04 21:11:16 (127.0.0.1) 0
+2019/12/04 21:11:25 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:11:25 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:11:25 (127.0.0.1) 0
+2019/12/04 21:11:25 (127.0.0.1) 0
+2019/12/04 21:11:25 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:11'
+2019/12/04 21:11:25 (127.0.0.1) 0
+2019/12/04 21:11:26 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:11:26 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:11:26 (127.0.0.1) 0
+2019/12/04 21:11:26 (127.0.0.1) 0
+2019/12/04 21:11:26 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:11'
+2019/12/04 21:11:26 (127.0.0.1) 0
+2019/12/04 21:11:26 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:11:26 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:11:26 (127.0.0.1) 0
+2019/12/04 21:11:26 (127.0.0.1) 0
+2019/12/04 21:11:26 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:11'
+2019/12/04 21:11:26 (127.0.0.1) 0
+2019/12/04 21:13:13 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:13:13 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:13:13 (127.0.0.1) 0
+2019/12/04 21:13:13 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:13'
+2019/12/04 21:13:13 (127.0.0.1) 0
+2019/12/04 21:13:35 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:13:35 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:13:35 (127.0.0.1) 0
+2019/12/04 21:13:35 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:13'
+2019/12/04 21:13:35 (127.0.0.1) 0
+2019/12/04 21:13:36 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:13:36 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:13:36 (127.0.0.1) 0
+2019/12/04 21:13:36 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:13'
+2019/12/04 21:13:36 (127.0.0.1) 0
+2019/12/04 21:16:19 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:16:19 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:16:19 (127.0.0.1) 0
+2019/12/04 21:16:19 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:16'
+2019/12/04 21:16:19 (127.0.0.1) 0
+2019/12/04 21:16:24 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:16:24 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:16:24 (127.0.0.1) 0
+2019/12/04 21:16:24 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:16'
+2019/12/04 21:16:24 (127.0.0.1) 0
+2019/12/04 21:17:20 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:17:20 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:17:20 (127.0.0.1) 0
+2019/12/04 21:17:20 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:17'
+2019/12/04 21:17:20 (127.0.0.1) 0
+2019/12/04 21:17:51 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:17:51 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:17:51 (127.0.0.1) insert into `member` (name, grade) values ('', '')
+2019/12/04 21:17:51 (127.0.0.1) 0
+2019/12/04 21:17:51 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:17'
+2019/12/04 21:17:51 (127.0.0.1) 0
+2019/12/04 21:17:54 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:17:54 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:17:54 (127.0.0.1) insert into `member` (name, grade) values ('이혜미', '95')
+2019/12/04 21:17:54 (127.0.0.1) 0
+2019/12/04 21:17:54 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:17'
+2019/12/04 21:17:54 (127.0.0.1) 0
+2019/12/04 21:18:43 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:18:43 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:18:43 (127.0.0.1) insert into `member` (name, grade) values ('이혜미', '95')
+2019/12/04 21:18:43 (127.0.0.1) 0
+2019/12/04 21:18:43 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:18'
+2019/12/04 21:18:43 (127.0.0.1) 0
+2019/12/04 21:19:49 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:19:49 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:19:49 (127.0.0.1) insert into `member` (name, grade) values ('', '')
+2019/12/04 21:19:49 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:19'
+2019/12/04 21:19:49 (127.0.0.1) 0
+2019/12/04 21:19:50 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:19:50 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:19:50 (127.0.0.1) insert into `member` (name, grade) values ('이혜미', '95')
+2019/12/04 21:19:50 (127.0.0.1) insert into `attend` 
+                          member_seq = ''
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = 'hi'
+                        , date = '2019-12-04 21:19'
+2019/12/04 21:19:50 (127.0.0.1) 0
+2019/12/04 21:21:58 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:21:58 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:21:58 (127.0.0.1) insert into `member` (name, grade) values ('', '')
+2019/12/04 21:22:00 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:22:00 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:22:00 (127.0.0.1) insert into `member` (name, grade) values ('이혜미', '95')
+2019/12/04 21:23:16 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:23:16 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:23:16 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:23:21 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:23:21 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:23:21 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '95')
+2019/12/04 21:25:16 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:25:16 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:25:16 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:25:19 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:25:19 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:25:19 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '95')
+2019/12/04 21:25:34 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:25:34 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:25:34 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '95')
+2019/12/04 21:25:59 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:25:59 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:25:59 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '95')
+2019/12/04 21:26:02 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:02 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:02 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:03 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:03 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:03 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:03 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:03 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:03 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:04 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:04 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:04 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:07 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:07 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:07 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:07 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:07 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:07 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:08 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:08 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:08 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:08 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:08 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:08 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:08 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:08 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:08 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:08 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:08 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:08 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:26:09 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:26:09 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:26:09 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:34:56 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:34:56 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:34:56 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:35:41 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:35:41 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:35:41 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:35:47 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:35:47 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:35:47 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:36:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:37:05 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:07 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:21 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:24 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:24 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:24 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:25 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:29 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:29 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:29 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:30 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:30 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:30 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:35 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:35 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:36 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:38:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:40:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:40:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:40:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:40:59 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:40:59 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:40:59 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:43:31 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:43:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:43:43 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:45:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:45:33 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:45:33 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:46:02 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:46:02 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:46:02 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:46:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:46:03 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:46:03 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:46:06 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:46:06 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:46:06 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:46:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:46:41 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:46:41 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:47:22 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:47:22 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:38 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:47:38 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:47:38 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:48 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:47:48 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:47:48 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:50 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:47:50 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:47:50 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:47:52 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:47:52 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:47:52 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:47:52 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:47:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:05 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:08 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:08 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:48:08 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:48:09 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:09 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:48:09 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:48:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:10 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:48:10 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:48:13 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:48:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:49:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:49:28 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:49:28 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:49:40 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:49:40 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:49:40 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:49:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:49:45 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:49:45 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:49:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:49:49 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:49:49 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:49:50 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:49:50 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:49:50 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:49:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:50:51 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:50:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:50:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:50:57 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:50:57 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:50:57 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '')
+2019/12/04 21:50:57 (127.0.0.1) insert into `attend` 
+                          member_seq = '5'
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:50'
+2019/12/04 21:50:57 (127.0.0.1) 0
+2019/12/04 21:51:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:51:19 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:51:19 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name=''
+2019/12/04 21:51:19 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '95')
+2019/12/04 21:51:19 (127.0.0.1) insert into `attend` 
+                          member_seq = '6'
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:51'
+2019/12/04 21:51:19 (127.0.0.1) 0
+2019/12/04 21:51:28 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:51:28 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:51:28 (127.0.0.1) select count(*) cnt from `member` where grade = '95' and name='이혜미'
+2019/12/04 21:51:28 (127.0.0.1) insert into `attend` 
+                          member_seq = '4'
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '2'
+                        , message = '안녕'
+                        , date = '2019-12-04 21:51'
+2019/12/04 21:51:28 (127.0.0.1) 0
+2019/12/04 21:51:46 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:52:04 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:52:13 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:52:21 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:52:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:55:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:55:55 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:55:55 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:55:55 (127.0.0.1) insert into `attend` set
+                          member_seq = '5'
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:55'
+2019/12/04 21:55:55 (127.0.0.1) 0
+2019/12/04 21:56:21 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:56:21 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 21:56:21 (127.0.0.1) select count(*) cnt from `member` where grade = '' and name=''
+2019/12/04 21:56:21 (127.0.0.1) insert into `attend` set
+                          member_seq = '5'
+                        , main_event = ''
+                        , after_event = ''
+                        , extra_member = ''
+                        , message = ''
+                        , date = '2019-12-04 21:56'
+2019/12/04 21:56:21 (127.0.0.1) 0
+2019/12/04 21:56:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:57:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:57:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:58:12 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:58:39 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:58:51 (127.0.0.1) dio / db connect success!!
+2019/12/04 21:59:44 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:00:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:00:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:00:18 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:00:37 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:00:46 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:00:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:25 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:31 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:43 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:01:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:02:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:02:03 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 22:02:03 (127.0.0.1) select count(*) cnt from `member` where grade = '13' and name='이혜미'
+2019/12/04 22:02:03 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '13')
+2019/12/04 22:02:03 (127.0.0.1) insert into `attend` set
+                          member_seq = '7'
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '0'
+                        , message = '모두모두 보고싶어요 !!'
+                        , date = '2019-12-04 22:02'
+2019/12/04 22:02:03 (127.0.0.1) 1
+2019/12/04 22:02:06 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:02:17 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:02:35 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:03:05 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:03:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:03:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:03:44 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:03:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:04:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:04:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:04:06 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:04:06 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:05:16 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:05:17 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:05:56 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:05:56 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:06:25 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:06:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:07:42 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:07:51 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:07:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:07:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:08:15 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:08:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:08:24 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:08:24 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:09:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:09:51 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:13:31 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:15:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:16:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:19 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 22:17:19 (127.0.0.1) select count(*) cnt from `member` where grade = '2013' and name='이혜미'
+2019/12/04 22:17:19 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '2013')
+2019/12/04 22:17:19 (127.0.0.1) insert into `attend` set
+                          member_seq = '8'
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '0'
+                        , message = '댄신머신 DIO동문 여러분 보고싶어요 !!'
+                        , date = '2019-12-04 22:17'
+2019/12/04 22:17:19 (127.0.0.1) 1
+2019/12/04 22:17:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:56 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:56 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:17:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:05 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:18:05 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:19:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:19:32 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 22:19:32 (127.0.0.1) select count(*) cnt from `member` where grade = '2013' and name='이혜미'
+2019/12/04 22:19:32 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('이혜미', '2013')
+2019/12/04 22:19:32 (127.0.0.1) insert into `attend` set
+                          member_seq = '9'
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '0'
+                        , message = '댄신머신 DIO동문 여러분 보고싶어요 !!'
+                        , date = '2019-12-04 22:19'
+2019/12/04 22:19:32 (127.0.0.1) 1
+2019/12/04 22:19:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:19:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:21:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:25:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:25:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:25:46 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:25:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:26:15 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:26:16 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:26:44 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:26:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:26:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:26:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:35:13 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:35:14 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:35:14 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:35:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:35:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:35:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:36:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:36:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:36:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:36:50 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:36:51 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:36:51 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:04 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:08 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:37:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:38:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:38:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:38:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:38:38 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:38:40 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:02 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:04 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:04 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:04 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:40:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:02 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:02 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:02 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:11 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:11 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:42 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:48 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:41:49 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:21 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:27 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:37 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:40 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:43:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:44:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:44:33 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:44:36 (127.0.0.1) dio / db connect success!!
+2019/12/04 22:44:37 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:00:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:00:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:00:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:00:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:01:09 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:01:23 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:01:38 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:29 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:30 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:31 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:38 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:38 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:02:55 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:03:50 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:03:50 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:04:16 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:05:06 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:05:08 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:05:09 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:05:10 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:03 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:41 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:45 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:50 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:52 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:53 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:54 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:57 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:06:59 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:07:00 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:07:01 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:07:38 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:07:43 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:07:43 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:07:43 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name=''
+2019/12/04 23:07:43 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('', '1995')
+2019/12/04 23:07:43 (127.0.0.1) insert into `attend` set
+                          member_seq = '10'
+                        , main_event = '1'
+                        , after_event = 'on'
+                        , extra_member = '0'
+                        , message = ''
+                        , date = '2019-12-04 23:07:43'
+2019/12/04 23:07:43 (127.0.0.1) 0
+2019/12/04 23:08:58 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:09:05 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:09:05 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:09:05 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name=''
+2019/12/04 23:09:05 (127.0.0.1) insert into `attend` set
+                          member_seq = '10'
+                        , main_event = '3'
+                        , after_event = '3'
+                        , extra_member = '0'
+                        , message = ''
+                        , date = '2019-12-04 23:09:05'
+2019/12/04 23:09:05 (127.0.0.1) 1
+2019/12/04 23:10:22 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:10:42 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:10:42 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:10:42 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name='펭수'
+2019/12/04 23:10:42 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('펭수', '1995')
+2019/12/04 23:10:42 (127.0.0.1) insert into `attend` set
+                          member_seq = '11'
+                        , main_event = '2'
+                        , after_event = '3'
+                        , extra_member = '0'
+                        , message = '펭펭'
+                        , date = '2019-12-04 23:10:42'
+2019/12/04 23:10:42 (127.0.0.1) 1
+2019/12/04 23:10:46 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:10:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:10:47 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:12:31 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:12:31 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:12:31 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name='펭수'
+2019/12/04 23:12:31 (127.0.0.1) delete from `attend` where member_seq = '11'
+2019/12/04 23:12:31 (127.0.0.1) insert into `attend` set
+                          member_seq = '11'
+                        , main_event = '2'
+                        , after_event = '3'
+                        , extra_member = '0'
+                        , message = '펭펭'
+                        , date = '2019-12-04 23:12:31'
+2019/12/04 23:12:31 (127.0.0.1) 1
+2019/12/04 23:12:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:12:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:06 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:06 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:13:06 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name='펭수'
+2019/12/04 23:13:06 (127.0.0.1) delete from `attend` where member_seq = '11'
+2019/12/04 23:13:06 (127.0.0.1) insert into `attend` set
+                          member_seq = '11'
+                        , main_event = '2'
+                        , after_event = '3'
+                        , extra_member = '0'
+                        , message = '펭펭!'
+                        , date = '2019-12-04 23:13:06'
+2019/12/04 23:13:06 (127.0.0.1) 1
+2019/12/04 23:13:09 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:09 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:25 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:26 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:36 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:36 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:13:36 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name='펭수'
+2019/12/04 23:13:36 (127.0.0.1) delete from `attend` where member_seq = '11'
+2019/12/04 23:13:36 (127.0.0.1) insert into `attend` set
+                          member_seq = '11'
+                        , main_event = '2'
+                        , after_event = '3'
+                        , extra_member = '0'
+                        , message = '펭펭!'
+                        , date = '2019-12-04 23:13:36'
+2019/12/04 23:13:36 (127.0.0.1) 1
+2019/12/04 23:13:37 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:37 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:13:37 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:14:19 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:14:32 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:14:32 (127.0.0.1) -----attendSubmit php -----
+2019/12/04 23:14:32 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name='펭수'
+2019/12/04 23:14:32 (127.0.0.1) delete from `attend` where member_seq = '11'
+2019/12/04 23:14:32 (127.0.0.1) insert into `attend` set
+                          member_seq = '11'
+                        , main_event = '2'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = '펭펭 ^^'
+                        , date = '2019-12-04 23:14:32'
+2019/12/04 23:14:32 (127.0.0.1) 1
+2019/12/04 23:14:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:14:34 (127.0.0.1) dio / db connect success!!
+2019/12/04 23:14:34 (127.0.0.1) dio / db connect success!!

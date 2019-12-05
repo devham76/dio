@@ -16,63 +16,10 @@
             </div>
         </div>
 
-        <div class="table-responsive">
-            <table class="table table-striped table-sm">
-                <thead>
-                    <tr>
-                        <th width="3%">No</th>
-                        <th width="20%">학번</th>
-                        <th width="20%">이름</th>
-                        <th width="16%">행사</th>
-                        <th width="16%">뒷풀이</th>
-                        <th width="25%">제출날짜</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>12학번</td>
-                        <td class="attend_1">김한솔</td>
-                        <td class="attend_1">참석</td>
-                        <td class="attend_1">참석</td>
-                        <td>19/12/02 14:00</td>
-                    </tr>
-                    <tr>
-                        <td colspan=4>보고싶어요 동문 여러분 !</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>13학번</td>
-                        <td class="attend_2">이혜미</td>
-                        <td class="attend_2">불참석</td>
-                        <td class="attend_1">참석</td>
-                        <td>19/12/02 14:00</td>
-                    </tr>
-                    <tr>
-                            <td>3</td>
-                            <td>13학번</td>
-                            <td class="attend_1">이혜미</td>
-                            <td class="attend_1">참석</td>
-                            <td class="attend_1">참석</td>
-                            <td>19/12/02 15:00</td>
-                        </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>13학번</td>
-                        <td class="attend_3">김수빈</td>
-                        <td class="attend_3">미정</td>
-                        <td class="attend_1">참석</td>
-                        <td>19/12/02 14:00</td>
-                    </tr>
-                    <tr>
-                        <td colspan=4>보고싶어요 동문 여러분 !!!!!!</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="table-responsive" id="table_div">
         </div>
 
     </div>
-
 
 
     <div class="copy">
@@ -83,13 +30,30 @@
             <li class="list-inline-item"><a href="./attendSubmit.html">참석제출</a></li>
         </ul>
     </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-    <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
-        crossorigin="anonymous"></script>
-    <script src="form-validation.js"></script>
+
 </body>
+<?php include("./footer.html") ?>
+<script>
+init();
+function init() {
+    console.log("inin..");
+    // member, attend 정보 불러오기
+    $.ajax({
+            type : 'post',
+            url : 'attendCheck.php',
+            data : {"action" : "attendCheck"},
+            dataType : 'text',
+            error : function(request, status, error){
+                console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+
+            },
+            success : function(data){
+                console.log(data);
+                console.log("success");
+                $("#table_div").html(data);
+            }
+        });
+        console.log("ajax end");
+    
+}
+</script>
