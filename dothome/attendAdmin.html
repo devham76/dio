@@ -29,6 +29,7 @@
                                 <li><button class="dropdown-item" type="button" id="search_name">이름</button></li>
                                 <li><button class="dropdown-item" type="button" id="search_main">행사참석</button></li>
                                 <li><button class="dropdown-item" type="button" id="search_after">뒷풀이참석</button></li>
+                                <li><button class="dropdown-item" type="button" id="search_parking">주차필요</button></li>
                             </ul>
                         </div>
                     </div>
@@ -69,28 +70,47 @@
             $('#dropdown-div .dropdown-menu .dropdown-item').click(function () {
                 var html = $(this).html();
                 var search_id = $(this).attr('id');
-                console.log(search_id);
+                var search_string = $("#search_string").val();
                 $('#dropdown-div button.dropdown-toggle').html(html + ' <span class="caret"></span>');
 
 
-                // 드롭다운 변경시마다 정렬
-                if (search_id == 'search_main' || search_id == 'search_after') {
+                // 드롭다운 클릭시마다 정렬
+                if (search_id == 'search_main' || search_id == 'search_after' || search_id == 'search_parking') {
                     $("#search_string").hide();
-                    search_retable(search_id);
                 }
                 else
                     $("#search_string").show();
+
+                    search_retable(search_id, search_string);
+            });
+
+            // 검색 엔터
+            $("#search_string").keyup( function() {
+               
+                    var dropdown_name = $('#dropdown-div button.dropdown-toggle').html();
+                    dropdown_name = dropdown_name.trim();
+
+                    console.log("dropdown_name : "+dropdown_name);
+                    if (dropdown_name.substr(0,2) == '학번') var search_id = "search_grade";
+                    else if (dropdown_name.substr(0,2) == '이름') var search_id = "search_name";
+
+                    var search_string = $("#search_string").val();
+                    search_retable(search_id, search_string);
+                
             });
         });
+        
 
         // 드롭다운 변경시에 테이블 재정렬
-        function search_retable(search_id) {
+        function search_retable(search_id, search_string) {
+            console.log("id: "+search_id+" ,string : "+search_string);
             $.ajax({
                 type: 'post',
-                url: 'attendCheck.php',
+                url: 'attendResult.php',
                 data: { 
                      "action": "attendAdminDetail"
                     ,"search_id" : search_id
+                    ,"search_string" : search_string
                  },
                 dataType: 'text',
                 error: function (request, status, error) {
@@ -113,7 +133,7 @@
             // member, attend 정보 불러오기
             $.ajax({
                 type: 'post',
-                url: 'attendCheck.php',
+                url: 'attendResult.php',
                 data: { "action": "attendAdminDetail" },
                 dataType: 'text',
                 error: function (request, status, error) {
@@ -132,7 +152,7 @@
             // member, attend 정보 불러오기
             $.ajax({
                 type: 'post',
-                url: 'attendCheck.php',
+                url: 'attendResult.php',
                 data: { "action": "attendAdminAll" },
                 dataType: 'text',
                 error: function (request, status, error) {

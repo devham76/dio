@@ -45,6 +45,7 @@
                         , after_event = '$after_attend'
                         , extra_member = '$extraPeople'
                         , message = '$message'
+                        , parking = '$parking'
                         , date = '" . date('Y-m-d H:i:s') . "'";
     debug($ins_sql);
     $result = mysqli_query( $db_connect, $ins_sql );

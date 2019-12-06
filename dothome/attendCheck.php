@@ -3,14 +3,13 @@
     
     global $db_connect;
 
-    foreach($_REQUEST as $key => $val) $$key = $val;
-    if ( $_REQUEST['action'] == "attendCheck" ) attendCheck($search_id, $search_string);
+
+    if ( $_REQUEST['action'] == "attendCheck" ) attendCheck();
     else if ( $_REQUEST['action'] == "attendAdminDetail" ) attendAdminDetail();
     else if ( $_REQUEST['action'] == "attendAdminAll" ) attendAdminAll();
 
 
-    function attendCheck($search_id, $search_string) {
-        global $db_connect;
+    function attendCheck() {
         // -- table
         $table = "
             <table class='table table-striped table-sm'>
@@ -20,26 +19,17 @@
                         <th width='20%'>학번</th>
                         <th width='20%'>이름</th>
                         <th width='16%'>행사</th>
-                        <th width='16%'>뒤풀이</th>
+                        <th width='16%'>뒷풀이</th>
                         <th width='25%'>제출날짜</th>
                     </tr>
                 </thead>
                 <tbody>
             ";
-
-
-        if ($search_id == 'search_main') $add_sql = " and main_event = 1 ";
-        else if ($search_id == 'search_after') $add_sql = " and after_event = 1 ";
-        else if ($search_id == 'search_grade') {
-            $search_string
-            $add_sql = " and grade =  ";
-        }
-
+        global $db_connect;
         $sql = "select m.*, a.*
                 from `member` m, `attend` a
-                where m.seq = a.member_seq ${add_sql}
+                where m.seq = a.member_seq
                 order by m.seq asc";
-                debug($sql);
         $result = mysqli_query($db_connect, $sql);
     
         $no = 0;
@@ -91,7 +81,7 @@
                         <th >학번</th>
                         <th >이름</th>
                         <th >행사</th>
-                        <th >뒤풀이</th>
+                        <th >뒷풀이</th>
                         <th >+인원</th>
                         <th width='20%'>제출날짜</th>
                     </tr>
@@ -153,7 +143,7 @@
                         <th>학번</th>
                         <th>전체</th>
                         <th>행사</th>
-                        <th>뒤풀이</th>
+                        <th>뒷풀이</th>
                         <th>+인원</th>
                     </tr>
                 </thead>

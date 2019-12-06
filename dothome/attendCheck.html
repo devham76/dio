@@ -29,7 +29,6 @@
             <li class="list-inline-item"><a href="./invitation.html">초대장</a></li>
             <li class="list-inline-item"><a href="./attendSubmit.html">참석제출</a></li>
         </ul>
-        <a href="./attendAdmin.html">(admin)</a>
     </div>
 
 </body>
@@ -41,7 +40,7 @@ function init() {
     // member, attend 정보 불러오기
     $.ajax({
             type : 'post',
-            url : 'attendCheck.php',
+            url : 'attendResult.php',
             data : {"action" : "attendCheck"},
             dataType : 'text',
             error : function(request, status, error){

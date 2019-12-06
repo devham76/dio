@@ -16,11 +16,7 @@
 			echo "\n관리자에게 연락주세요 (010-9481-2668)";
 		  exit;
 		}
-		else
-			debug(_MYSQL_DB_." / db connect success!!");
-		//var_dump($db_connect);
 
-		
 		//echo "->>dbconn :: ". $db_connect;
 		$charset="utf8";
 		//mysqli_set_charset($db_connect,"utf8");

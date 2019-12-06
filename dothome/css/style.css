@@ -229,3 +229,7 @@ body {
 .lead {
 	font-size: 1rem;
 }
+
+.td_grade {
+	font-weight: bold;
+}

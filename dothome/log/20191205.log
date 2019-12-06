@@ -49,3 +49,771 @@
 2019/12/05 00:46:35 (127.0.0.1) dio / db connect success!!
 2019/12/05 00:48:19 (127.0.0.1) dio / db connect success!!
 2019/12/05 00:48:30 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:28:32 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:29:40 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:30:45 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:30:50 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:30:50 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:30:55 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:30:55 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:36:30 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:37:17 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:37:20 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:37:26 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:37:27 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:37:28 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:37:28 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:39:08 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:42:40 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:52:35 (127.0.0.1) dio / db connect success!!
+2019/12/05 17:52:59 (127.0.0.1) dio / db connect success!!
+2019/12/05 18:00:34 (127.0.0.1) attendResult.php start...
+2019/12/05 18:00:36 (127.0.0.1) attendResult.php start...
+2019/12/05 18:00:38 (127.0.0.1) attendResult.php start...
+2019/12/05 18:01:32 (127.0.0.1) attendResult.php start...
+2019/12/05 18:03:45 (127.0.0.1) attendResult.php start...
+2019/12/05 18:05:02 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:05:02 (127.0.0.1) attendResult.php start...
+2019/12/05 18:06:17 (127.0.0.1) attendResult.php start...
+2019/12/05 18:06:17 (127.0.0.1) attendResult.php start...
+2019/12/05 18:06:32 (127.0.0.1) attendResult.php start...
+2019/12/05 18:06:32 (127.0.0.1) attendResult.php start...
+2019/12/05 18:06:35 (127.0.0.1) attendResult.php start...
+2019/12/05 18:06:35 (127.0.0.1) attendResult.php start...
+2019/12/05 18:07:37 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:07:37 (127.0.0.1) attendResult.php start...
+2019/12/05 18:08:05 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:08:06 (127.0.0.1) attendResult.php start...
+2019/12/05 18:09:29 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:09:29 (127.0.0.1) attendResult.php start...
+2019/12/05 18:09:47 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:09:47 (127.0.0.1) attendResult.php start...
+2019/12/05 18:09:58 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:09:58 (127.0.0.1) attendResult.php start...
+2019/12/05 18:10:26 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:10:26 (127.0.0.1) attendResult.php start...
+2019/12/05 18:10:28 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:10:28 (127.0.0.1) attendResult.php start...
+2019/12/05 18:12:44 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:12:44 (127.0.0.1) attendResult.php start...
+2019/12/05 18:13:10 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:13:10 (127.0.0.1) attendResult.php start...
+2019/12/05 18:13:12 (127.0.0.1) attendResult.php start...
+2019/12/05 18:13:12 (127.0.0.1) attendResult.php start...
+2019/12/05 18:13:37 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:13:37 (127.0.0.1) attendResult.php start...
+2019/12/05 18:13:40 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:13:40 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:01 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:01 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:06 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:14:06 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:08 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:28 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:43 (127.0.0.1) attendResult.php start...
+2019/12/05 18:14:43 (127.0.0.1) attendResult.php start...
+2019/12/05 18:17:15 (127.0.0.1) -----attendSubmit php -----
+2019/12/05 18:17:15 (127.0.0.1) select count(*) cnt from `member` where grade = '1995' and name='최하이'
+2019/12/05 18:17:15 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('최하이', '1995')
+2019/12/05 18:17:15 (127.0.0.1) delete from `attend` where member_seq = '13'
+2019/12/05 18:17:15 (127.0.0.1) insert into `attend` set
+                          member_seq = '13'
+                        , main_event = '2'
+                        , after_event = '1'
+                        , extra_member = '0'
+                        , message = ''
+                        , parking = '0'
+                        , date = '2019-12-05 18:17:15'
+2019/12/05 18:17:57 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:17:57 (127.0.0.1) attendResult.php start...
+2019/12/05 18:18:32 (127.0.0.1) -----attendSubmit php -----
+2019/12/05 18:18:32 (127.0.0.1) select count(*) cnt from `member` where grade = '2020' and name='홍안녕'
+2019/12/05 18:18:32 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('홍안녕', '2020')
+2019/12/05 18:18:32 (127.0.0.1) delete from `attend` where member_seq = '14'
+2019/12/05 18:18:32 (127.0.0.1) insert into `attend` set
+                          member_seq = '14'
+                        , main_event = '1'
+                        , after_event = '1'
+                        , extra_member = '0'
+                        , message = ''
+                        , parking = '0'
+                        , date = '2019-12-05 18:18:32'
+2019/12/05 18:18:34 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:18:34 (127.0.0.1) attendResult.php start...
+2019/12/05 18:18:59 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:18:59 (127.0.0.1) attendResult.php start...
+2019/12/05 18:19:01 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:19:01 (127.0.0.1) attendResult.php start...
+2019/12/05 18:19:03 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.seq asc
+2019/12/05 18:19:03 (127.0.0.1) attendResult.php start...
+2019/12/05 18:19:36 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 18:19:36 (127.0.0.1) attendResult.php start...
+2019/12/05 18:22:25 (127.0.0.1) -----attendSubmit php -----
+2019/12/05 18:22:25 (127.0.0.1) select count(*) cnt from `member` where grade = '2013' and name='박댄싱'
+2019/12/05 18:22:25 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('박댄싱', '2013')
+2019/12/05 18:22:25 (127.0.0.1) delete from `attend` where member_seq = '15'
+2019/12/05 18:22:25 (127.0.0.1) insert into `attend` set
+                          member_seq = '15'
+                        , main_event = '2'
+                        , after_event = '1'
+                        , extra_member = '1'
+                        , message = '안녕하세요 여러분'
+                        , parking = '1'
+                        , date = '2019-12-05 18:22:25'
+2019/12/05 18:22:27 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 18:22:27 (127.0.0.1) attendResult.php start...
+2019/12/05 18:22:54 (127.0.0.1) attendResult.php start...
+2019/12/05 18:22:54 (127.0.0.1) attendResult.php start...
+2019/12/05 18:22:59 (127.0.0.1) attendResult.php start...
+2019/12/05 18:23:12 (127.0.0.1) attendResult.php start...
+2019/12/05 18:23:17 (127.0.0.1) attendResult.php start...
+2019/12/05 18:24:11 (127.0.0.1) attendResult.php start...
+2019/12/05 18:24:11 (127.0.0.1) attendResult.php start...
+2019/12/05 18:27:13 (127.0.0.1) attendResult.php start...
+2019/12/05 18:33:27 (127.0.0.1) attendResult.php start...
+2019/12/05 18:33:27 (127.0.0.1) attendResult.php start...
+2019/12/05 18:36:26 (127.0.0.1) attendResult.php start...
+2019/12/05 18:36:26 (127.0.0.1) attendResult.php start...
+2019/12/05 18:36:27 (127.0.0.1) attendResult.php start...
+2019/12/05 18:36:30 (127.0.0.1) attendResult.php start...
+2019/12/05 18:37:36 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%$혜미$' 
+                order by  grade asc
+2019/12/05 18:37:36 (127.0.0.1) attendResult.php start...
+2019/12/05 18:38:10 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%$혜미$' 
+                order by  grade asc
+2019/12/05 18:38:10 (127.0.0.1) attendResult.php start...
+2019/12/05 18:38:40 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:38:40 (127.0.0.1) attendResult.php start...
+2019/12/05 18:40:25 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:40:25 (127.0.0.1) attendResult.php start...
+2019/12/05 18:40:25 (127.0.0.1) attendResult.php start...
+2019/12/05 18:40:29 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:40:30 (127.0.0.1) attendResult.php start...
+2019/12/05 18:40:30 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:40:30 (127.0.0.1) attendResult.php start...
+2019/12/05 18:40:31 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:40:31 (127.0.0.1) attendResult.php start...
+2019/12/05 18:40:37 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:40:37 (127.0.0.1) attendResult.php start...
+2019/12/05 18:41:42 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:41:42 (127.0.0.1) attendResult.php start...
+2019/12/05 18:41:42 (127.0.0.1) attendResult.php start...
+2019/12/05 18:41:46 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:41:46 (127.0.0.1) attendResult.php start...
+2019/12/05 18:42:09 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:42:09 (127.0.0.1) attendResult.php start...
+2019/12/05 18:42:11 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:42:11 (127.0.0.1) attendResult.php start...
+2019/12/05 18:43:16 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:43:16 (127.0.0.1) attendResult.php start...
+2019/12/05 18:43:17 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:43:17 (127.0.0.1) attendResult.php start...
+2019/12/05 18:43:48 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:43:48 (127.0.0.1) attendResult.php start...
+2019/12/05 18:43:48 (127.0.0.1) attendResult.php start...
+2019/12/05 18:43:51 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:43:51 (127.0.0.1) attendResult.php start...
+2019/12/05 18:44:14 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:44:14 (127.0.0.1) attendResult.php start...
+2019/12/05 18:44:14 (127.0.0.1) attendResult.php start...
+2019/12/05 18:44:15 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:44:15 (127.0.0.1) attendResult.php start...
+2019/12/05 18:44:34 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:44:34 (127.0.0.1) attendResult.php start...
+2019/12/05 18:44:34 (127.0.0.1) attendResult.php start...
+2019/12/05 18:44:35 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:44:35 (127.0.0.1) attendResult.php start...
+2019/12/05 18:45:24 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:45:24 (127.0.0.1) attendResult.php start...
+2019/12/05 18:45:24 (127.0.0.1) attendResult.php start...
+2019/12/05 18:46:00 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:46:00 (127.0.0.1) attendResult.php start...
+2019/12/05 18:46:00 (127.0.0.1) attendResult.php start...
+2019/12/05 18:46:02 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%$12$' 
+                order by  grade asc
+2019/12/05 18:46:02 (127.0.0.1) attendResult.php start...
+2019/12/05 18:46:04 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%$13$' 
+                order by  grade asc
+2019/12/05 18:46:04 (127.0.0.1) attendResult.php start...
+2019/12/05 18:47:17 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:47:17 (127.0.0.1) attendResult.php start...
+2019/12/05 18:47:18 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%13%' 
+                order by  grade asc
+2019/12/05 18:47:18 (127.0.0.1) attendResult.php start...
+2019/12/05 18:47:21 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%95%' 
+                order by  grade asc
+2019/12/05 18:47:21 (127.0.0.1) attendResult.php start...
+2019/12/05 18:47:25 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%이혜%' 
+                order by  grade asc
+2019/12/05 18:47:25 (127.0.0.1) attendResult.php start...
+2019/12/05 18:47:29 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:47:29 (127.0.0.1) attendResult.php start...
+2019/12/05 18:48:57 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:48:57 (127.0.0.1) attendResult.php start...
+2019/12/05 18:48:57 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:29 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:49:29 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:29 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:31 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:49:31 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:33 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  after_event asc,  grade asc
+2019/12/05 18:49:33 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:34 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%%' 
+                order by  grade asc
+2019/12/05 18:49:34 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:36 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:49:36 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:37 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:49:37 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:39 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:49:39 (127.0.0.1) attendResult.php start...
+2019/12/05 18:49:54 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:49:54 (127.0.0.1) attendResult.php start...
+2019/12/05 18:50:33 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:50:33 (127.0.0.1) attendResult.php start...
+2019/12/05 18:50:33 (127.0.0.1) attendResult.php start...
+2019/12/05 18:50:36 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%13%' 
+                order by  grade asc
+2019/12/05 18:50:36 (127.0.0.1) attendResult.php start...
+2019/12/05 18:50:39 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:50:39 (127.0.0.1) attendResult.php start...
+2019/12/05 18:50:40 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:50:40 (127.0.0.1) attendResult.php start...
+2019/12/05 18:50:43 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:50:43 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:03 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:51:03 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:03 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:04 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:51:04 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:06 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%%' 
+                order by  grade asc
+2019/12/05 18:51:06 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:08 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:51:08 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:42 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:51:42 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:42 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:45 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%12%' 
+                order by  grade asc
+2019/12/05 18:51:45 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:46 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:51:46 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:47 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:51:47 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:47 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:51:47 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:48 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:51:48 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:50 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%%' 
+                order by  grade asc
+2019/12/05 18:51:50 (127.0.0.1) attendResult.php start...
+2019/12/05 18:51:52 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:51:52 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:26 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:52:26 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:26 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:28 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%13%' 
+                order by  grade asc
+2019/12/05 18:52:28 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:32 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:52:32 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:38 (127.0.0.1) attendResult.php start...
+       from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:52:38 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:40 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%12%' 
+                order by  grade asc
+2019/12/05 18:52:40 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:46 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%12%' 
+                order by  grade asc
+2019/12/05 18:52:46 (127.0.0.1) attendResult.php start...
+2019/12/05 18:52:50 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%이혜%' 
+                order by  grade asc
+2019/12/05 18:52:50 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:41 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:53:41 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:41 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:43 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%13%' 
+                order by  grade asc
+2019/12/05 18:53:43 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:49 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%%' 
+                order by  grade asc
+2019/12/05 18:53:49 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:53 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%이혜%' 
+                order by  grade asc
+2019/12/05 18:53:53 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:57 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%안녕%' 
+                order by  grade asc
+2019/12/05 18:53:57 (127.0.0.1) attendResult.php start...
+2019/12/05 18:53:59 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%펭수%' 
+                order by  grade asc
+2019/12/05 18:53:59 (127.0.0.1) attendResult.php start...
+2019/12/05 18:54:01 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:54:01 (127.0.0.1) attendResult.php start...
+2019/12/05 18:54:26 (127.0.0.1) -----attendSubmit php -----
+2019/12/05 18:54:26 (127.0.0.1) select count(*) cnt from `member` where grade = '2000' and name='최미정'
+2019/12/05 18:54:26 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('최미정', '2000')
+2019/12/05 18:54:26 (127.0.0.1) delete from `attend` where member_seq = '16'
+2019/12/05 18:54:26 (127.0.0.1) insert into `attend` set
+                          member_seq = '16'
+                        , main_event = '3'
+                        , after_event = '3'
+                        , extra_member = '0'
+                        , message = '미정이에요 ㅠㅠ'
+                        , parking = '0'
+                        , date = '2019-12-05 18:54:26'
+2019/12/05 18:54:27 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 18:54:27 (127.0.0.1) attendResult.php start...
+2019/12/05 18:54:33 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:54:33 (127.0.0.1) attendResult.php start...
+2019/12/05 18:54:33 (127.0.0.1) attendResult.php start...
+2019/12/05 18:54:35 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 18:54:35 (127.0.0.1) attendResult.php start...
+2019/12/05 18:54:42 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  after_event asc,  grade asc
+2019/12/05 18:54:42 (127.0.0.1) attendResult.php start...
+2019/12/05 18:58:40 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:58:40 (127.0.0.1) attendResult.php start...
+2019/12/05 18:58:55 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:58:55 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:31 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:59:31 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:31 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:34 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:59:34 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:35 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:59:35 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:36 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:37 (127.0.0.1) attendResult.php start...
+2019/12/05 18:59:38 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 18:59:38 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:22 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:00:22 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:22 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:26 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  parking asc,  grade asc
+2019/12/05 19:00:26 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:36 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:00:36 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:36 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:38 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  parking asc,  grade asc
+2019/12/05 19:00:38 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:40 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%%' 
+                order by  grade asc
+2019/12/05 19:00:40 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:43 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%95%' 
+                order by  grade asc
+2019/12/05 19:00:43 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:44 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  main_event asc,  grade asc
+2019/12/05 19:00:44 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:46 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%95%' 
+                order by  grade asc
+2019/12/05 19:00:46 (127.0.0.1) attendResult.php start...
+2019/12/05 19:00:49 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and name like '%혜미%' 
+                order by  grade asc
+2019/12/05 19:00:49 (127.0.0.1) attendResult.php start...
+2019/12/05 19:01:28 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:01:28 (127.0.0.1) attendResult.php start...
+2019/12/05 19:01:28 (127.0.0.1) attendResult.php start...
+2019/12/05 19:09:06 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:09:06 (127.0.0.1) attendResult.php start...
+2019/12/05 19:09:10 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:09:10 (127.0.0.1) attendResult.php start...
+2019/12/05 19:14:48 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:14:48 (127.0.0.1) attendResult.php start...
+2019/12/05 19:14:48 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:04 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:15:04 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:04 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:16 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:15:16 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:16 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:51 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by  grade asc
+2019/12/05 19:15:51 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:51 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:52 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%1%' 
+                order by  grade asc
+2019/12/05 19:15:52 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:52 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%12%' 
+                order by  grade asc
+2019/12/05 19:15:52 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:53 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%1%' 
+                order by  grade asc
+2019/12/05 19:15:53 (127.0.0.1) attendResult.php start...
+2019/12/05 19:15:53 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%13%' 
+                order by  grade asc
+2019/12/05 19:15:53 (127.0.0.1) attendResult.php start...
+2019/12/05 19:16:09 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq  and grade like '%13%' 
+                order by  grade asc
+2019/12/05 19:16:09 (127.0.0.1) attendResult.php start...
+2019/12/05 19:21:44 (127.0.0.1) -----attendSubmit php -----
+2019/12/05 19:21:44 (127.0.0.1) select count(*) cnt from `member` where grade = '1998' and name='최안녕'
+2019/12/05 19:21:44 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('최안녕', '1998')
+2019/12/05 19:21:44 (127.0.0.1) delete from `attend` where member_seq = '17'
+2019/12/05 19:21:44 (127.0.0.1) insert into `attend` set
+                          member_seq = '17'
+                        , main_event = '1'
+                        , after_event = '2'
+                        , extra_member = '11'
+                        , message = ''
+                        , parking = '0'
+                        , date = '2019-12-05 19:21:44'
+2019/12/05 19:21:46 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 19:21:46 (127.0.0.1) attendResult.php start...
+2019/12/05 19:22:07 (127.0.0.1) -----attendSubmit php -----
+2019/12/05 19:22:07 (127.0.0.1) select count(*) cnt from `member` where grade = '1999' and name='호호잇'
+2019/12/05 19:22:07 (127.0.0.1) INSERT INTO `member` (name, grade) VALUES ('호호잇', '1999')
+2019/12/05 19:22:07 (127.0.0.1) delete from `attend` where member_seq = '18'
+2019/12/05 19:22:07 (127.0.0.1) insert into `attend` set
+                          member_seq = '18'
+                        , main_event = '3'
+                        , after_event = '1'
+                        , extra_member = '0'
+                        , message = ''
+                        , parking = '0'
+                        , date = '2019-12-05 19:22:07'
+2019/12/05 19:22:09 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 19:22:09 (127.0.0.1) attendResult.php start...
+2019/12/05 19:26:35 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 19:26:35 (127.0.0.1) attendResult.php start...
+2019/12/05 19:27:27 (127.0.0.1) select m.*, a.*
+                from `member` m, `attend` a
+                where m.seq = a.member_seq 
+                order by m.grade asc
+2019/12/05 19:27:27 (127.0.0.1) attendResult.php start...

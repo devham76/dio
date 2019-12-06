@@ -65,12 +65,12 @@
                 <div class="mb-3">
                         <label for="parking"><span class="text-import">*</span>주차여부</label>
                         <div class="custom-control custom-radio">
-                            <input value="1" id="parking1" name="parking" type="radio" class="custom-control-input" checked
+                            <input value="0" id="parking1" name="parking" type="radio" class="custom-control-input" checked
                                 required>
                             <label class="custom-control-label" for="parking1">불필요</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input value="2" id="parking2" name="parking" type="radio" class="custom-control-input" required>
+                            <input value="1" id="parking2" name="parking" type="radio" class="custom-control-input" required>
                             <label class="custom-control-label" for="parking2">필요</label>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
             success : function(data){
                 console.log(data);
                 if (data == 'success'){
-                    alert("제출해주셔서 감사합니다 !");
+                    alert("사랑해 그리고 기억해,\n보고싶습니다 DIO♥");
                     window.location.href="./attendCheck.html";
                 }
             }
