@@ -15,6 +15,7 @@
         <div class="py-4 text-center">
             <h2>참석 현황 (관리자용)</h2>
         </div>
+        <div><span id="visitor"></span>(오늘 방문 수/전체 방문 수)</div>
         <div class="row">
             <div class="col">
                 <div class="row">
@@ -65,16 +66,17 @@
 
     <script>
         $(function () {
-            //$(document).ready(function(){
-            console.log("test");
+            
+            //-- 방문자수 가져오기
+            get_visitor(); 
+            
+            //-- 검색
             $('#dropdown-div .dropdown-menu .dropdown-item').click(function () {
                 var html = $(this).html();
                 var search_id = $(this).attr('id');
                 var search_string = $("#search_string").val();
                 $('#dropdown-div button.dropdown-toggle').html(html + ' <span class="caret"></span>');
 
-
-                // 드롭다운 클릭시마다 정렬
                 if (search_id == 'search_main' || search_id == 'search_after' || search_id == 'search_parking') {
                     $("#search_string").hide();
                 }
@@ -165,5 +167,22 @@
                 }
             });
             console.log("ajax end");
+        }
+
+        // 방문자 수 가져오기
+        function get_visitor() {
+            $.ajax({
+                type : 'post',
+                url : 'index.php',
+                data : {'action' : 'get_visitor'},
+                dataType : 'text',
+                error : function(request, status, error){
+                    console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+                },
+                success : function(data){
+                    $("#visitor").html(data);
+                    console.log("count_visitor success, "+data);
+                }
+            });
         }
     </script>
