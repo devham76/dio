@@ -7,7 +7,7 @@
     if ( $_REQUEST['action'] == "attendCheck" ) attendCheck();
     else if ( $_REQUEST['action'] == "attendAdminDetail" ) attendAdminDetail($search_id, $search_string);
     else if ( $_REQUEST['action'] == "attendAdminAll" ) attendAdminAll();
-    debug("attendResult.php start...");
+    //debug("attendResult.php start...");
 
     // -- 모든 사람 확인용 , 참여현황
     function attendCheck() {
@@ -34,7 +34,7 @@
                 from `member` m, `attend` a
                 where m.seq = a.member_seq 
                 order by m.grade asc";
-                debug($sql);
+                //debug($sql);
         $result = mysqli_query($db_connect, $sql);
     
         $no = 0;
@@ -112,7 +112,7 @@
                 from `member` m, `attend` a
                 where m.seq = a.member_seq ${add_sql}
                 order by ${order_sql} grade asc";
-        debug($sql);
+        //debug($sql);
         $result = mysqli_query($db_connect, $sql);
     
         $no = 0;

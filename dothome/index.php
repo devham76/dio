@@ -31,8 +31,17 @@
     function count_visitor() {
         global $db_connect;
 
+        $sql = "select * 
+                    from `visitor` 
+                where ip = '".$_SERVER['REMOTE_ADDR']."' 
+                  and date like '".date("Y-m-d")."%'";
+        $result = mysqli_query($db_connect, $sql);
+        $data = mysqli_num_rows($result);
+        echo "data cnt: "+$data;
+        if($data != 0) return;
+
         $sql = "insert into `visitor` (ip, date) values ('" . $_SERVER['REMOTE_ADDR']."', '". date("Y/m/d H:i:s") ."')";
-        echo $sql;
+        echo "data:".$data." / sql : ".$sql;
         mysqli_query($db_connect, $sql);
      
     }
