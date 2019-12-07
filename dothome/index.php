@@ -7,7 +7,7 @@
     else if ( $_REQUEST['action'] == "count_visitor" ) count_visitor();
     else if ( $_REQUEST['action'] == "get_visitor" ) get_visitor();
 
-    // -- 후원해주신 분들 목록
+    // -- 후원해 주신 분들 목록
     function table_support() {
         global $db_connect;
         $sql = "select *   

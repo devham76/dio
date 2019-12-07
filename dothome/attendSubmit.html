@@ -3,10 +3,10 @@
 <body class="bg-light wrap">
     <div class="container">
         <div class="py-4 text-center">
-            <h2>참석여부 제출</h2>
+            <h2>참여신청</h2>
             <p class="lead">
-                원활한 행사 준비를 위해 꼭 참석여부를 꼭 남겨주세요 :)<br>
-                참석여부는 중복으로 제출하실 수 있으며<br> 마지막 제출 결과를 최종 참석여부로 확인합니다
+                원활한 행사 준비를 위해 참석여부를 꼭 남겨주세요 :)<br>
+                참여신청은 중복으로 신청하실 수 있으며<br> 마지막 신청 결과를 최종 참여신청으로 확인합니다
             </p>
         </div>
 
@@ -76,7 +76,7 @@
                     </div>
                 <div class="mb-3">
                         <label for="extraPeople">함께 오시는 인원</label>
-                        <small class="text-muted">디아이오 외 함께 오시는 분 ( ex.가족, 친구 등)</small>
+                        <small class="text-muted">디아이오 외 함께 오시는 분 ( ex.가족, 친구 등 )</small>
                         
                         <input type="number" class="form-control" id="extraPeoples" name="extraPeople" placeholder="0">
                 </div>
@@ -93,11 +93,11 @@
 
 
     <div class="copy">
-            © Copyright 2019, DIO 20주년 파티 기획단
+            © Copyright 2019, DIO 스무살 축하 프로젝트 기획단
         <ul class="list-inline">
             <li class="list-inline-item"><a href="./index.html">포스터</a></li>
             <li class="list-inline-item"><a href="./invitation.html">초대장</a></li>
-            <li class="list-inline-item"><a href="./attendCheck.html">참석현황</a></li>
+            <li class="list-inline-item"><a href="./attendCheck.html">신청자확인</a></li>
         </ul>
     </div>
     </div>
@@ -136,7 +136,7 @@
             success : function(data){
                 console.log(data);
                 if (data == 'success'){
-                    alert("사랑해 그리고 기억해,\n보고싶습니다 DIO♥");
+                    alert("사랑해 그리고 기억해\n보고싶습니다 DIO♥");
                     window.location.href="./attendCheck.html";
                 }
             }
