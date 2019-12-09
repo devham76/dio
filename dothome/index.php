@@ -37,7 +37,7 @@
                   and date like '".date("Y-m-d")."%'";
         $result = mysqli_query($db_connect, $sql);
         $data = mysqli_num_rows($result);
-        echo "data cnt: "+$data;
+        
         if($data != 0) return;
 
         $sql = "insert into `visitor` (ip, date) values ('" . $_SERVER['REMOTE_ADDR']."', '". date("Y/m/d H:i:s") ."')";

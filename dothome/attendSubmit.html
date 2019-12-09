@@ -85,9 +85,23 @@
                         <textarea rows="2" class="form-control" id="message" name="message" placeholder="댄싱머신 DIO 동문들 보고싶어요"></textarea>
                 </div>
 
+                <div class="entry_fee_wrap" >
+                        <span class="text-import" ><img src="https://cdn3.iconfinder.com/data/icons/events-1/256/ticket-2-256.png" alt="time" /> 참가비 안내  </span><br>
+                        <div class="entry_fee_text"> 
+                후원멤버: 참가비없음<br>
+                일반멤버: 10,000원<br><br>
+                
+                * 재학생은 참가비 무료입니다.<br>
+                * 행사 당일 까지 계속 후원 받습니다.<br>
+                * 당일 현장 후원도 받습니다.<br>
+                * 후원멤버에게는 스페셜 DIO굿즈를 증정해드립니다♡
+                        </div>
+                </div>
+
                 <hr class="mb-4">
                 <button class="btn btn-primary btn-lg btn-block" type="button" id="btn_submit" onclick="go_submit();">제출하기</button>
             </form>
+            
         </div>
     </div>
 
@@ -104,7 +118,6 @@
 </body>
 <?php include("./footer.html") ?>
 <script>
-    console.log("test22");
     function go_submit(){
         console.log("go_submit");
         if (document.submit_form.name.value.length == 0) {
