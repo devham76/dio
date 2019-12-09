@@ -161,6 +161,14 @@ body {
 	top: -3px;
 	padding-right: 5px;
 }
+
+.entry_fee_wrap {
+	border: groove;
+	padding: 10px 5px !important;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
 .copy {
 	font-size:12px;
 	color:#888;
