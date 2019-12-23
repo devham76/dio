@@ -9,7 +9,8 @@
 		$MYSQL_PASSWD = _MYSQL_PASSWD_;
 		$MYSQL_DB     = _MYSQL_DB_;
 
-		if (!$db_connect) $db_connect = mysqli_connect($MYSQL_HOST, $MYSQL_ID, $MYSQL_PASSWD, $MYSQL_DB);
+		if (!$db_connect) 
+			@$db_connect = mysqli_connect($MYSQL_HOST, $MYSQL_ID, $MYSQL_PASSWD, $MYSQL_DB);
 		if (!$db_connect)
 		{
 			echo "mysql(db_connect) 데이터 베이스에 연결할 수 없습니다.\n" . mysqli_connect_error();

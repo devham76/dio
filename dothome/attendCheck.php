@@ -3,11 +3,12 @@
     
     global $db_connect;
 
-
+    $_REQUEST['action']();
+    /*
     if ( $_REQUEST['action'] == "attendCheck" ) attendCheck();
     else if ( $_REQUEST['action'] == "attendAdminDetail" ) attendAdminDetail();
     else if ( $_REQUEST['action'] == "attendAdminAll" ) attendAdminAll();
-
+*/
 
     function attendCheck() {
         // -- table
@@ -192,5 +193,33 @@
         $table .= "</tbody></table>";
     
         echo $table;
+    }
+    //-- 제출 퍼센트
+    function getAttend() {
+        global $db_connect;
+        $sql = "select grade, count(*) cnt, 
+                    sum( IF(main_event = 1, 1, 0)) main, 
+                    sum( IF(after_event = 1, 1, 0)) after, 
+                    sum(extra_member) extra
+                        from `member` m, `attend` a
+                    where m.seq = a.member_seq
+                        group by grade
+                        order by grade asc";
+        $result = mysqli_query($db_connect, $sql);
+    
+        $no = 0;
+        $cnt = 0;
+        $main = 0;
+        $after = 0;
+        $extra = 0;
+        while ($data = mysqli_fetch_assoc($result)) {
+            $cnt += $data['cnt'];
+            $main += $data['main'];
+            $after += $data['after'];
+            $extra += $data['extra'];
+  
+        }
+        
+        echo $cnt;
     }
 ?>

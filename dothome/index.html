@@ -24,12 +24,15 @@
       <label class="btn btn-secondary btn-go " onclick='window.location.assign("./invitation.html")'>
         <input type="radio" name="options" id="option1"> 초대장 보기
       </label>
-      <label class="btn btn-secondary btn-go" id="option2" onclick='window.location.assign("./attendSubmit.html")'>
+      <label class="btn btn-secondary btn-go " onclick='window.location.assign("./album.html")'>
+        <input type="radio" name="options" id="option1"> 행사 사진 보기
+      </label>
+      <!--label class="btn btn-secondary btn-go" id="option2" onclick='window.location.assign("./attendSubmit.html")'>
         <input type="radio" name="options"> 참석신청(~12/13)
       </label>
       <label class="btn btn-secondary btn-go" onclick='window.location.assign("./attendCheck.html")'>
-        <input type="radio" name="options" id="option3"> 신청자확인
-      </label>
+        <input type="radio" name="options" id="option3"> 신청자확인<span id="percent"></span>
+      </label-->
     </div>
     <!-- 포스터 -->
     <img src="assets/images/20annivPoster.png" class="img100" />
@@ -60,6 +63,7 @@
 <script>
 support_init();
 count_visitor();
+get_attend();
 
 function support_init() {
 
@@ -90,6 +94,22 @@ function count_visitor() {
     },
     success : function(data){
       console.log("count_visitor success, "+data);
+    }
+  });
+}
+// 방문자 수 카운트
+function get_attend() {
+  $.ajax({
+    type : 'post',
+    url : 'attendCheck.php',
+    data : {'action' : 'getAttend'},
+    dataType : 'text',
+    error : function(request, status, error){
+      console.log("code:"+request.status+"\n"+"message:"+request.responseText+"\n"+"error:"+error);
+    },
+    success : function(data){
+      console.log("getAttend, "+data);
+      $("#percent").html("("+data+"/175)");
     }
   });
 }
