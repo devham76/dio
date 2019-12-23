@@ -4,30 +4,92 @@
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
 <style>
-    .albumImages {
-        width: 600px;
+    .photoNumber_box {
+        text-align: center;
+    }
+
+    .photoNumber {
+        font-weight: bold;
+        color: black;
+        size: 30px;
+    }
+
+    .icon {
+        height: 15px;
+        vertical-align: middle;
+        position: relative;
+        top: -2px;
+        padding-right: 5px;
     }
 </style>
 
 <body class="bg-light">
     <div class="container">
-        <div class="py-4 text-center">
-            <h2>행사사진</h2>
-            <span class="lead" style="font-weight: bold;">( 12/13(금) 까지 신청마감 )</span><br>
-            <p class="lead">
-                원활한 행사 준비를 위해 참석여부를 꼭 남겨주세요 :)<br>
-                참여신청은 중복으로 신청하실 수 있으며<br> 마지막 신청 결과를 최종 참여신청으로 확인합니다
-            </p>
-        </div>
+
 
         <div class="row">
             <div class="col">
-                <?php 
-                        for ($i=1; $i<=110; $i++)
-                        echo '<img src="assets/20images/' . $i . '.JPG" class="albumImages" />';
-                ?>
+                <div class="py-4 text-center">
+                    <h2>행사사진</h2>
+                    
+                </div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/20images/1.JPG" class="d-block w-100" alt="...">
+                            <div class="photoNumber_box">
+                                <span class='photoNumber'>1/137</span>
+                            </div>
+                        </div>
+
+                        <?php 
+                            for ($i=2; $i<=137; $i++) {
+                              
+                            echo '<div class="carousel-item">
+                                <img src="assets/20images/'.$i.'.JPG" class="d-block w-100" alt="...">
+                                <div class="photoNumber_box"">
+                                  <span class="photoNumber" >'.$i.'/137</span>
+                                </div>
+                              </div> ';
+                            }
+                            ?>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="entry_fee_text">
+                        행사에서 찍은 모든 사진들을 찾습니다! 우리의 소중한 추억을 오래 보관하고 기억하기 위해 클라우드에 저장할 예정입니다.
+                        1분만 시간을 내주세요 ♥ SNS 또는 Email로 제보해주세요 :)<br>
+                        <span>
+                            SNS :
+                            <a href="https://pf.kakao.com/_xgQxdkT">
+                                <img src="https://cdn0.iconfinder.com/data/icons/eon-social-media-contact-info-2/32/kakao_talk_chat_media_social-512.png"
+                                    alt="metro" class='icon' /><strong>한신dio</strong>
+                            </a>/
+                            <a href="https://www.instagram.com/dio20anniv/">
+                                <img src="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png"
+                                    alt="metro" class='icon' /><strong>dio20anniv</strong>
+                            </a>
+                            <br>
+                            Email :
+                            <a href="mailto:dio20anniv@gmail.com" class="btn-contact bg3">
+                                <img class="icon"
+                                    src="https://cdn4.iconfinder.com/data/icons/miu/24/common-email-envelope-mail-outline-stroke-128.png"
+                                    alt="email">
+                                <strong>공식메일</strong>
+                            </a>
+                        </span>
+                  
+                </div>
             </div>
         </div>
+    </div>
     </div>
 
     <div class="copy">
