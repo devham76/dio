@@ -17,8 +17,7 @@
 ![dio main](https://user-images.githubusercontent.com/55946791/73453530-8ea90200-43af-11ea-8b4b-383cc6056bff.JPG)
 
 ### 초대장 화면
-- 초대장 이미지 : 슬라이드를 사용
-- 위치 : 네이버 지도 사용
+- 초대장 이미지 : 슬라이드를 사용 / 위치 : 네이버 지도 사용
 ![dio 초대장](https://user-images.githubusercontent.com/55946791/73453515-8650c700-43af-11ea-938b-6b931c8f538e.JPG)
 
 ### 참석신청 화면
